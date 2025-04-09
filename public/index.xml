@@ -363,26 +363,18 @@ $$</p>]]></content:encoded>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">3</span><span>}</span></span></code></pre></div>]]></content:encoded>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/pokeleef/volume-ii/chapter-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>shaolong.chen@outlook.it (Shaolong Chen)</author>
-      <guid>http://localhost:1313/pokeleef/volume-ii/chapter-1/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/pokeleef/volume-ii/chapter-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>shaolong.chen@outlook.it (Shaolong Chen)</author>
-      <guid>http://localhost:1313/pokeleef/volume-ii/chapter-2/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
       <title>Chapter 1 Title</title>
       <link>http://localhost:1313/pokeleef/volume-i/chapter-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>shaolong.chen@outlook.it (Shaolong Chen)</author>
       <guid>http://localhost:1313/pokeleef/volume-i/chapter-1/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Chapter 2 Title</title>
+      <link>http://localhost:1313/pokeleef/volume-i/chapter-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>shaolong.chen@outlook.it (Shaolong Chen)</author>
+      <guid>http://localhost:1313/pokeleef/volume-i/chapter-2/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
