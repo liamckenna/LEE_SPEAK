@@ -46,5 +46,15 @@
   </url><url>
     <loc>http://localhost:1313/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pokeleef/volume-ii/chapter-1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/pokeleef/volume-ii/chapter-2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/pokeleef/volume-i/chapter-1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/pokeleef/</loc>
+  </url><url>
+    <loc>http://localhost:1313/pokeleef/preface/</loc>
   </url>
 </urlset>
