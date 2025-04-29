@@ -1,23 +1,26 @@
 ---
-title: "ᕦʕ •ᴥ•ʔᕤ"
+title: "LEE_SPEAK"
+description: "Welcome to my blog!"
 ---
 
-Today's websites are bloated, slow, and full of scripts, ads, and trackers. This
-became so commonplace that we lost all sense of perspective, to the point that
-we now think multi-megabyte webpages are normal.
+### In case you didn't already know
 
-> The internet has become a bloated mess. Huge JavaScript libraries, countless
-> client-side queries and overly complex frontend frameworks are par for the
-> course these days.
->
-> --- [Kev Quirk](https://512kb.club/)
+My name is Liam! I'm a graduate student in desparate need of an outlet, so here we are.
+**LEE_SPEAK** is my little place to think out loud. I'll try and only speak on topics I'm qualified on, I swear.
 
-Let's change this, one website at a time! **Hugo Simple** is a
-[Hugo](https://gohugo.io/) theme based on [Simple.css](https://simplecss.org/) and
-[Hugo Bear](https://github.com/janraasch/hugo-bearblog/) that takes care of speed and
-optimization, so you can focus on writing good content.
+The site will be both a general-purpose blog, but may also host unique content excursions here and there.
 
-It is free, multilingual, optimized for search engines, no-nonsense, responsive,
-light, and fast. Really fast.
+#### Blog stuff
 
-Made with 💟 by [Shaolong Chen](https://github.com/maolonglong).
+- art
+- gaming
+- graphics
+- internet culture
+- life
+- music
+- other
+
+#### Other Projects
+
+- Pokémon Project
+- Sweet Synopsis

@@ -1,9 +1,9 @@
 # Basic config
-baseURL = "https://example.com"
+baseURL = "https://leespeak.me"
 theme = "hugo-simple"
 languageCode = "en"                # zh-Hans
 title = "LEE_SPEAK"
-copyright = "© 2024 Shaolong Chen"
+# copyright = "© 2024 Shaolong Chen"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
@@ -41,22 +41,33 @@ hideMadeWithLine = true
 hideRSSLink = true
 
 [params.author]
-name = "Shaolong Chen"
-email = "shaolong.chen@outlook.it"
-fediverse = "@chensl@mastodon.social"
+name = "Liam McKenna"
+email = "lee@liamdouglas.com"
 
 [[menu.main]]
 name = "Home"
 pageRef = "/"
 weight = 10
 [[menu.main]]
-name = "PokéLeef"
-pageRef = "/pokeleef/"
+name = "Gaming"
+pageRef = "/gaming"
 weight = 20
 [[menu.main]]
-name = "Blog"
-pageRef = "/blog"
+name = "Music"
+pageRef = "/music"
 weight = 30
+[[menu.main]]
+name = "Misc."
+pageRef = "/miscellaneous"
+weight = 40
+[[menu.main]]
+name = "PokéLeef"
+pageRef = "/pokeleef/"
+weight = 50
+[[menu.main]]
+name = "Sweet Synopsis"
+pageRef = "/sweet_synopsis"
+weight = 60
 
 [services.rss]
 limit = 42

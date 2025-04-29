@@ -1,26 +1,22 @@
 {{ define "main" }}
 <main>
-    <h1>{{ .Title }}</h1>
-    <ul class="directory-list">
-        <li style="margin-bottom: 1rem;">
-            <a href="{{ .RelPermalink }}preface" style="font-size: 2rem; font-weight: bold;">Preface</a>
-          </li>
-          
-      
-        {{ range .Sections }}
-      
-        <li>
-          <details>
-            <summary>{{ .Title }}</summary>
-            <ol>
-              {{ range .Pages }}
-                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-              {{ end }}
-            </ol>
-          </details>
-        </li>
-      {{ end }}
-    </ul>
-  </main>
-  
+   <ul class="directory-list">
+    <li style="margin-bottom: 1rem;">
+      <a href="{{ .RelPermalink }}preface" style="font-size: 2rem; font-weight: bold;">Preface</a>
+    </li>
+
+    {{ range where .Sections "Draft" "ne" true }}
+      <li>
+        <details>
+          <summary>{{ .Title }}</summary>
+          <ol>
+            {{ range where .Pages "Draft" "ne" true }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ol>
+        </details>
+      </li>
+    {{ end }}
+  </ul>
+</main>
 {{ end }}
