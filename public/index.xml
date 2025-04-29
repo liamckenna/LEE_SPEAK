@@ -8,7 +8,7 @@
     <language>en</language>
     <managingEditor>lee@liamdouglas.com (Liam McKenna)</managingEditor>
     <webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster>
-    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preface</title>
@@ -547,9 +547,9 @@ was not going to be of any use if left to his own devices. I had no choice but t
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>http://localhost:1313/music-copy/math-typesetting/</link>
+      <link>http://localhost:1313/music/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>http://localhost:1313/music-copy/math-typesetting/</guid>
+      <guid>http://localhost:1313/music/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
 <p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
@@ -582,9 +582,9 @@ $$</p>]]></content:encoded>
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>http://localhost:1313/music/math-typesetting/</link>
+      <link>http://localhost:1313/sweet_synopsis/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>http://localhost:1313/music/math-typesetting/</guid>
+      <guid>http://localhost:1313/sweet_synopsis/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
 <p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
