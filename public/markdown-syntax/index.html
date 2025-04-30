@@ -19,7 +19,7 @@
   content="markdown,css,html,"
 />
 
-  <meta name="author" content="Shaolong Chen" />
+  <meta name="author" content="Liam McKenna" />
 
 
 
@@ -65,8 +65,6 @@
     
 
     
-      <meta name="fediverse:creator" content="@chensl@mastodon.social" />
-    
 
 
     
@@ -82,21 +80,48 @@
   >
 
   <a
+    href="/gaming/"
+    
+    >Gaming</a
+  >
+
+  <a
+    href="/music/"
+    
+    >Music</a
+  >
+
+  <a
+    href="/miscellaneous/"
+    
+    >Misc.</a
+  >
+
+  <a
     href="/pokeleef/"
     
     >PokéLeef</a
   >
 
   <a
+    href="/sweet_synopsis/"
+    
+    >Sweet Synopsis</a
+  >
+
+  <a
     href="/blog/"
     
-    >Blog</a
+    >Blog Template</a
   >
 
 
 </nav>
 
-<h1>Markdown Syntax Guide</h1>
+<h1>
+  
+  Markdown Syntax Guide
+</h1>
 
   <p>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</p>
 
@@ -124,7 +149,13 @@
               datetime="2019-03-11"
               pubdate
             >
-              2019-03-11
+            
+
+
+
+
+Mar. 11th, 2019
+
             </time>
           </i>
         </p>
@@ -355,11 +386,40 @@
     </p>
   
 
+  
+  
+  
+  
+
+  
+    
+
+    <section class="comments">
+    <h3>Leave a comment</h3>
+    <form method="POST" action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master/comments">
+      <input type="hidden" name="options[slug]" value="markdown-syntax">
+  
+      <p>
+        <label>Name:<br>
+        <input type="text" name="fields[name]" required></label>
+      </p>
+  
+      <p>
+        <label>Comment:<br>
+        <textarea name="fields[message]" rows="5" required></textarea></label>
+      </p>
+  
+      <p><button type="submit">Post</button></p>
+    </form>
+  </section>
+  
+  
+  
+
+
     </main>
     <footer>
       
-  <span>© 2024 Shaolong Chen</span>
-
 
 
     </footer>

@@ -68,6 +68,12 @@ weight = 50
 name = "Sweet Synopsis"
 pageRef = "/sweet_synopsis"
 weight = 60
+[[menu.main]]
+name = "Blog Template"
+pageRef = "/blog"
+weight = 70
+
+
 
 [services.rss]
 limit = 42

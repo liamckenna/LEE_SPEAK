@@ -7,7 +7,7 @@ tags = [
     "shortcodes",
     "privacy",
 ]
-draft = true
+draft = false
 +++
 
 Hugo ships with several [Embedded Shortcodes](https://gohugo.io/content-management/shortcodes/#embedded) for rich content, along with a [Privacy Config](https://gohugo.io/about/hugo-and-gdpr/) and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
