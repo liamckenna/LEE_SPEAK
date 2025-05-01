@@ -1,0 +1,15 @@
+# staticman.yml
+apiVersion: v3
+branch: master           # the branch to open PRs against
+format: json             # comment file format
+path: data/comments/{options[path]}   # where to put each new file
+filename: "{options[slug]}-{timestamp}"  # naming scheme for each comment file
+
+# define the fields your form will submit
+fields:
+  name:
+    type: string
+    required: true
+  comment:
+    type: text
+    required: true
