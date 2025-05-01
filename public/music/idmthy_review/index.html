@@ -209,17 +209,30 @@
   <h3>Leave a comment</h3>
   <form
     method="POST"
-    action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master/data/comments/music"
+    action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master"
   >
+    
     <input
       type="hidden"
       name="options[slug]"
       value="idmthy_review"
     >
+    
+    <input
+      type="hidden"
+      name="options[path]"
+      value="music"
+    >
 
     <p>
       <label>Name:<br>
         <input type="text" name="fields[name]" required>
+      </label>
+    </p>
+
+    <p>
+      <label>Email:<br>
+        <input type="email" name="fields[email]" required>
       </label>
     </p>
 
