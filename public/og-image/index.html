@@ -255,24 +255,33 @@ May. 8th, 2024
     
 
     <section class="comments">
-    <h3>Leave a comment</h3>
-    <form method="POST" action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master/comments">
-      <input type="hidden" name="options[slug]" value="index">
-  
-      <p>
-        <label>Name:<br>
-        <input type="text" name="fields[name]" required></label>
-      </p>
-  
-      <p>
-        <label>Comment:<br>
-        <textarea name="fields[message]" rows="5" required></textarea></label>
-      </p>
-  
-      <p><button type="submit">Post</button></p>
-    </form>
-  </section>
-  
+  <h3>Leave a comment</h3>
+  <form
+    method="POST"
+    action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master/data/comments/blog"
+  >
+    <input
+      type="hidden"
+      name="options[slug]"
+      value="index"
+    >
+
+    <p>
+      <label>Name:<br>
+        <input type="text" name="fields[name]" required>
+      </label>
+    </p>
+
+    <p>
+      <label>Comment:<br>
+        <textarea name="fields[comment]" rows="5" required></textarea>
+      </label>
+    </p>
+
+    <p><button type="submit">Post</button></p>
+  </form>
+</section>
+
   
   
 
