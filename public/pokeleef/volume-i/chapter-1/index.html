@@ -168,31 +168,28 @@
 
     <section class="comments">
   <h3>Leave a comment</h3>
-  <form
-    method="POST"
-    action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master"
-  >
+  <form method="POST" action="https://leespeak-api.vercel.app/api/submit">
     
     <input
       type="hidden"
-      name="options[slug]"
+      name="slug"
       value="chapter-1"
     >
     
     <input
       type="hidden"
-      name="options[path]"
+      name="path"
       value="pokeleef"
     >
 
     <p>
       <label>Name:<br>
-        <input type="text" name="fields[name]" required>
+        <input type="text" name="name" required>
       </label>
     </p>
     <p>
       <label>Comment:<br>
-        <textarea name="fields[comment]" rows="5" required></textarea>
+        <textarea name="comment" rows="5" required></textarea>
       </label>
     </p>
 
