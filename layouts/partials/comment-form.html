@@ -1,37 +1,27 @@
 <section class="comments">
   <h3>Leave a comment</h3>
-  <form
-    method="POST"
-    action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master"
-  >
+  <form method="POST" action="https://leespeak-api.vercel.app/api/submit">
     <!-- Which post/page -->
     <input
       type="hidden"
-      name="options[slug]"
+      name="slug"
       value="{{ .File.BaseFileName }}"
     >
     <!-- Which category folder under data/comments/ -->
     <input
       type="hidden"
-      name="options[path]"
+      name="path"
       value="{{ .Section }}"
     >
 
     <p>
       <label>Name:<br>
-        <input type="text" name="fields[name]" required>
+        <input type="text" name="name" required>
       </label>
     </p>
-
-    <p>
-      <label>Email:<br>
-        <input type="email" name="fields[email]" required>
-      </label>
-    </p>
-
     <p>
       <label>Comment:<br>
-        <textarea name="fields[comment]" rows="5" required></textarea>
+        <textarea name="comment" rows="5" required></textarea>
       </label>
     </p>
 

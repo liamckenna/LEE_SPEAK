@@ -225,12 +225,19 @@ $$</p>
   <h3>Leave a comment</h3>
   <form
     method="POST"
-    action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master/data/comments/blog"
+    action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master"
   >
+    
     <input
       type="hidden"
       name="options[slug]"
       value="math-typesetting"
+    >
+    
+    <input
+      type="hidden"
+      name="options[path]"
+      value="blog"
     >
 
     <p>
@@ -238,7 +245,6 @@ $$</p>
         <input type="text" name="fields[name]" required>
       </label>
     </p>
-
     <p>
       <label>Comment:<br>
         <textarea name="fields[comment]" rows="5" required></textarea>

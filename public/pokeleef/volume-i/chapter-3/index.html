@@ -181,12 +181,19 @@ was not going to be of any use if left to his own devices. I had no choice but t
   <h3>Leave a comment</h3>
   <form
     method="POST"
-    action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master/data/comments/pokeleef"
+    action="https://leespeak-comments.onrender.com/v3/entry/github/liamckenna/LEE_SPEAK/master"
   >
+    
     <input
       type="hidden"
       name="options[slug]"
       value="chapter-3"
+    >
+    
+    <input
+      type="hidden"
+      name="options[path]"
+      value="pokeleef"
     >
 
     <p>
@@ -194,7 +201,6 @@ was not going to be of any use if left to his own devices. I had no choice but t
         <input type="text" name="fields[name]" required>
       </label>
     </p>
-
     <p>
       <label>Comment:<br>
         <textarea name="fields[comment]" rows="5" required></textarea>
