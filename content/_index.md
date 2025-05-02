@@ -1,6 +1,7 @@
 ---
 title: "LEE_SPEAK"
 description: "Welcome to my blog!"
+home_page: true
 ---
 
 ### In case you didn't already know
@@ -24,3 +25,4 @@ The site will be both a general-purpose blog, but may also host unique content e
 
 - Pokémon Project
 - Sweet Synopsis
+
