@@ -83,6 +83,8 @@ pagerSize = 16
 
 [outputs]
 # Generate RSS for home only.
-section = ["html"]
 taxonomy = ["html"]
 term = ["html"]
+home    = ["HTML","RSS"]
+section = ["HTML","RSS"]
+

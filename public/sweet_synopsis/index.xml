@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LEE_SPEAK</title>
+    <link>http://localhost:1313/sweet_synopsis/</link>
+    <description>Recent content on LEE_SPEAK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>lee@liamdouglas.com (Liam McKenna)</managingEditor>
+    <webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster>
+    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/sweet_synopsis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math Typesetting</title>
+      <link>http://localhost:1313/sweet_synopsis/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
+      <guid>http://localhost:1313/sweet_synopsis/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">1</span><span><span style="color:#89dceb;font-weight:bold">{{</span> <span style="color:#cba6f7">if</span> or .Params.math .Site.Params.math <span style="color:#89dceb;font-weight:bold">}}</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">2</span><span><span style="color:#89dceb;font-weight:bold">{{</span> partial <span style="color:#a6e3a1">&#34;math.html&#34;</span> . <span style="color:#89dceb;font-weight:bold">}}</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">3</span><span><span style="color:#89dceb;font-weight:bold">{{</span> end <span style="color:#89dceb;font-weight:bold">}}</span></span></span></code></pre></div>
+<ul>
+<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
+<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
+</ul>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
+
+<h3 id="examples">Examples</h3>
+
+<p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
