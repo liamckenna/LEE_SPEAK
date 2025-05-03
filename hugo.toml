@@ -57,7 +57,7 @@ name = "Music"
 pageRef = "/music"
 weight = 30
 [[menu.main]]
-name = "Misc."
+name = "Miscellaneous"
 pageRef = "/miscellaneous"
 weight = 40
 [[menu.main]]
@@ -68,10 +68,6 @@ weight = 50
 name = "Sweet Synopsis"
 pageRef = "/sweet_synopsis"
 weight = 60
-[[menu.main]]
-name = "Blog Template"
-pageRef = "/blog"
-weight = 70
 
 
 
