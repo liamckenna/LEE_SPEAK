@@ -3,7 +3,7 @@ baseURL = "https://leespeak.me"
 theme = "hugo-simple"
 languageCode = "en"                # zh-Hans
 title = "LEE_SPEAK"
-# copyright = "© 2024 Shaolong Chen"
+copyright = "© 2025 Liam McKenna"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true

@@ -8,6 +8,7 @@
     <language>en</language>
     <managingEditor>lee@liamdouglas.com (Liam McKenna)</managingEditor>
     <webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster>
+    <copyright>© 2025 Liam McKenna</copyright>
     <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -594,41 +595,6 @@ was not going to be of any use if left to his own devices. I had no choice but t
 <p>The cold, delicate and debilitating emotions at the core of this album’s premise demand to be taken seriously. There’s no room for contrivance or cliché here, which makes Quadeca’s sincerity and sensitivity all the more valuable. I’m no doubt sounding pretentious when I put it this way, but art like this saves people; it saved me.</p>
 <p>I Didn’t Mean to Haunt You is special. It’s special to me, obviously, but that’s not what I’m getting at. In conception and ambition, in composition and articulation, in cogency and authenticity—in totality, it is special. This album deserves to be heard, and deserves to be remembered.</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/sweet_synopsis/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>http://localhost:1313/sweet_synopsis/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
-<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
-<ul>
-<li>Create a partial under <code>/layouts/partials/math.html</code></li>
-<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
-<li>Include the partial in your templates like so:</li>
-</ul>
-
-
-
-
-
-
-<div class="highlight"><pre tabindex="0" style="color:#cdd6f4;background-color:#1e1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">1</span><span><span style="color:#89dceb;font-weight:bold">{{</span> <span style="color:#cba6f7">if</span> or .Params.math .Site.Params.math <span style="color:#89dceb;font-weight:bold">}}</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">2</span><span><span style="color:#89dceb;font-weight:bold">{{</span> partial <span style="color:#a6e3a1">&#34;math.html&#34;</span> . <span style="color:#89dceb;font-weight:bold">}}</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">3</span><span><span style="color:#89dceb;font-weight:bold">{{</span> end <span style="color:#89dceb;font-weight:bold">}}</span></span></span></code></pre></div>
-<ul>
-<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
-<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
-</ul>
-<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
-
-<h3 id="examples">Examples</h3>
-
-<p>Block math:
-$$
-\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$</p>]]></content:encoded>
     </item>
   </channel>
 </rss>
