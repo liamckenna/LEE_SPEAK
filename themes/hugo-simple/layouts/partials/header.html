@@ -1,9 +1,72 @@
 <nav>{{- partial "nav.html" . -}}</nav>
 
-<h1>
-  {{ with .Params.title_line1 }}{{ . }}<br />{{ end }}
-  {{ with .Params.title_line2 }}{{ . }}{{ else }}{{ .Title }}{{ end }}
-</h1>
-{{ with .Description }}
-  <p>{{ . }}</p>
+{{ if .Params.home_page}}
+  <h1 class="home-title">
+    <img 
+      src="{{ "right-icon.png" | relURL }}" 
+      alt="Icon" 
+      class="title-icon"
+    >
+    {{ with .Params.title_line1 }}{{ . }}<br />{{ end }}
+    {{ with .Params.title_line2 }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+    <img 
+      src="{{ "right-icon.png" | relURL }}" 
+      alt="Icon" 
+      class="title-icon"
+    >
+  </h1>
+  {{ with .Description }}
+    <p>{{ . }}</p>
+  {{ end }}
+
+
+{{ else if .Params.long_title}}
+
+  <h1 class="home-title">
+    <img 
+      src="{{ "right-icon.png" | relURL }}" 
+      alt="Icon" 
+      class="title-icon-small"
+    >
+    {{ with .Params.title_line1 }}{{ . }}<br />{{ end }}
+    {{ with .Params.title_line2 }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+    <img 
+      src="{{ "right-icon.png" | relURL }}" 
+      alt="Icon" 
+      class="title-icon-small"
+    >
+  </h1>
+  {{ with .Description }}
+    <p>{{ . }}</p>
+  {{ end }}
+
+  {{ else if .Params.index_title}}
+  <h1 class="home-title">
+    <img 
+      src="{{ "right-icon.png" | relURL }}" 
+      alt="Icon" 
+      class="title-icon"
+    >
+    {{ with .Params.title_line1 }}{{ . }}<br />{{ end }}
+    {{ with .Params.title_line2 }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+    <img 
+      src="{{ "right-icon.png" | relURL }}" 
+      alt="Icon" 
+      class="title-icon"
+    >
+  </h1>
+  {{ with .Description }}
+    <p>{{ . }}</p>
+  {{ end }}
+
+
+{{ else }}
+
+  <h1 class="page-title">
+    {{ with .Params.title_line1 }}{{ . }}<br />{{ end }}
+    {{ with .Params.title_line2 }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+  </h1>
+  {{ with .Description }}
+    <p>{{ . }}</p>
+  {{ end }}
 {{ end }}

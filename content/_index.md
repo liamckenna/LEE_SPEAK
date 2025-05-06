@@ -1,6 +1,6 @@
 ---
 title: "LEE_SPEAK"
-description: "by Liam McKenna"
+description: "By Liam McKenna"
 home_page: true
 ---
 

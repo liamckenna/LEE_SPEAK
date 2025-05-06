@@ -99,3 +99,37 @@ ol li {
 .social-links a:hover {
   color: var(--accent-color);
 }
+
+a {
+  color: inherit;
+  text-decoration-line: none;
+  transition: color 0.2s;
+  font-style: italic;
+
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.title-icon {
+
+  max-width: 100px;
+  max-height: 100px;
+}
+
+@media only screen and (max-width: 750px) {
+
+  .title-icon {
+
+      max-width: 50px;
+      max-height: 50px;
+  }
+
+  .title-icon-small {
+
+    max-width: 30px;
+    max-height: 30px;
+}
+
+}
+
