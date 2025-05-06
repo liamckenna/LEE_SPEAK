@@ -1,0 +1,21 @@
+{{ $src := .Get "src" }}
+{{ $scale := default 1 (.Get "scale" | float) }}
+{{ $baseWidth := 250}}
+{{ $baseHeight := 170 }}
+
+{{ $width := printf "%.0f" (mul $baseWidth $scale) }}
+{{ $height := printf "%.0f" (mul $baseHeight $scale) }}
+
+<img
+  src="{{$src}}" 
+  style="display: inline-block;
+    vertical-align: top;
+    image-rendering: pixelated;
+    box-sizing: border-box;
+    width: {{ $width }}px;
+    height: {{ $height }}px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;"/>
+

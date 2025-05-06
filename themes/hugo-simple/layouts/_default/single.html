@@ -1,0 +1,84 @@
+{{ define "main" }}
+  {{/* -- Top Nav -- */}}
+  <nav style="margin-bottom: 4rem;">
+    {{ if eq .Params.weight 1101}}
+      {{ with .Params.prev }}
+      <a href="{{ . }}">← Preface</a>
+      {{ end }}
+    {{ else }}
+      {{ with .Params.prev }}
+      <a href="{{ . }}">← Prev. Chapter</a>
+      {{ end }}
+    {{ end }}
+    
+    {{ with .Params.next }}
+      <a href="{{ . }}" style="float: right;">Next Chapter →</a>
+    {{ end }}
+  </nav>
+  
+
+  {{ if eq .Type "blog" }}
+    {{ if not .Params.menu }}
+      {{ if not .Params.draft }}
+        <p>
+          <i>
+            <time
+              style="color: var(--text-light);"
+              datetime="{{ .Date.Format "2006-01-02" }}"
+              pubdate
+            >
+            {{ partial "prettydate.html" . }}
+            </time>
+          </i>
+        </p>
+      {{ end }}  
+    {{ end }}
+  {{ end }}
+
+  {{ if .Params.toc }}
+    <details>
+      <summary>Table of Contents</summary>
+      {{ .TableOfContents }}
+    </details>
+  {{ end }}
+  {{ if .Params.directory }}
+    <details>
+      <summary>Directory</summary>
+      {{ .TableOfContents }} <!--Needs to be a new thing called Directory.-->
+    </details>
+  {{ end }}
+
+  <content>
+    {{ .Content }}
+  </content>
+
+  {{/* -- Bottom Nav -- */}}
+  <nav style="margin-bottom: 4rem;">
+    {{ if eq .Params.weight 1101}}
+      {{ with .Params.prev }}      <a href="{{ . }}">← Preface</a>
+      {{ end }}
+    {{ else }}
+      {{ with .Params.prev }}
+      <a href="{{ . }}">← Prev. Chapter</a>
+      {{ end }}
+    {{ end }}
+    
+    {{ with .Params.next }}
+      <a href="{{ . }}" style="float: right;">Next Chapter →</a>
+    {{ end }}
+  </nav>
+
+  {{ $tags := .GetTerms "tags" }}
+  {{ if gt (len $tags) 0 }}
+    <p>
+      {{ range $tags }}
+        <a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>&nbsp;&nbsp;
+      {{ end }}
+    </p>
+  {{ end }}
+
+  {{ partial "comment_section.html" . }}
+
+
+{{ end }}
+

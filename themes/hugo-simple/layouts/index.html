@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ .Content }}
+
+
+  {{ if .Params.home_page }}
+
+    {{ partial "recent-posts.html" . }}
+
+    {{ partial "subscribe-form.html" . }}
+
+  {{ end }}
+
+
+{{ end }}

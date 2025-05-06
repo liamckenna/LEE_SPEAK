@@ -1,0 +1,19 @@
+{{ $src := .Get "src" }}
+{{ $scale := .Get "scale" | default "1" | float }}
+
+<img
+  src="{{ $src }}"
+  style="
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    {{ if ne $scale 1 }}
+      transform: scale({{ $scale }});
+      transform-origin: top left;
+    {{ end }}
+  "
+/>

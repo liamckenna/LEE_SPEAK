@@ -1,0 +1,101 @@
+body {
+  -webkit-text-size-adjust: 100%; /* prevent Mobile Safari from adjusting font sizes */
+}
+
+nav a.current {
+  color: var(--accent) !important;
+  border-color: var(--accent) !important;
+}
+
+div.pagination {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.blog-posts {
+  padding-left: 0;
+}
+
+ul.blog-posts > li {
+  list-style-type: none;
+  display: flex;
+}
+
+ul.blog-posts > li span {
+  flex: 0 0 130px;
+  color: var(--text-light);
+}
+
+nav#TableOfContents > ul {
+  margin-block-start: 0;
+}
+
+.icon {
+  vertical-align: sub;
+  padding-right: 0.25rem;
+  display: inline-block;
+  width: 1em;
+  height: 1.3em;
+  margin-right: 0.2rem;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+div.highlight code,
+div.highlight pre,
+div.highlight pre span {
+  color: inherit;
+}
+
+ul.directory-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.directory-list > li {
+  margin: 1rem 0;
+}
+
+details {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+details summary {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+details ul li a {
+  font-size: 1.75rem;
+  display: block;
+  margin: 1rem 0;
+}
+
+ol {
+  padding-left: 2rem;
+}
+
+ol li {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* space between items */
+}
+
+.social-links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.social-links a:hover {
+  color: var(--accent-color);
+}

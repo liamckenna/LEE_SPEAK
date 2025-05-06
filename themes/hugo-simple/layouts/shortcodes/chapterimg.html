@@ -1,0 +1,12 @@
+{{- $rawPath := .Page.File.Path -}}
+{{- $path := replace $rawPath "\\" "/" -}}
+{{- $matches := findRE "pokeleef/([^/]+)/chapter-([0-9]+)\\.md$" $path -}}
+{{- if ge (len $matches) 1 -}}
+  {{- $volume := index (index $matches 0) 1 -}}
+  {{- $chapter := print "chapter-" (index (index $matches 0) 2) -}}
+  <img src="/images/pokeleef/{{ $volume }}/{{ $chapter }}/{{ .Get 0 }}"
+       alt="{{ .Get 0 }}"
+       style="max-width:100%; height:auto; margin:0 2px; vertical-align:middle;">
+{{- else -}}
+  <p style="color:red;">⚠️ Could not extract volume/chapter from path: {{ $path }}</p>
+{{- end -}}

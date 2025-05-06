@@ -1,0 +1,9 @@
+<nav>{{- partial "nav.html" . -}}</nav>
+
+<h1>
+  {{ with .Params.title_line1 }}{{ . }}<br />{{ end }}
+  {{ with .Params.title_line2 }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+</h1>
+{{ with .Description }}
+  <p>{{ . }}</p>
+{{ end }}
