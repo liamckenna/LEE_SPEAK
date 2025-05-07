@@ -2,24 +2,26 @@
 {{ $slug := .File.BaseFileName }}
 {{ $comments := index site.Data.comments $section $slug }}
 
-{{if not .Params.comments_disabled }}
+{{ if not .Params.comments_disabled }}
   {{ if $comments }}
     <section class="comments-thread">
       <h3>Comments</h3>
       <ul style="list-style-type: none; padding-left: 0;">
         {{ range $comments }}
+          {{ $dt := (.date | time) }}
           <li style="margin-bottom: 1.5rem;">
             <div style="display: flex; justify-content: space-between; align-items: baseline;">
               <h4 style="margin: 0;">{{ .name }}</h4>
-              <span style="font-size: 0.9rem; color: #888;">{{ .date | time | dateFormat "Jan 2, 2006" }}</span>
+              <span style="font-size: 0.9rem; color: #888;">
+                {{ $dt.Format "1/2/06" }} @ {{ $dt.Format "3:04 PM" }}
+              </span>
             </div>
             <p style="margin-top: 0.5rem;">{{ .comment }}</p>
           </li>
         {{ end }}
-      </ul>       
+      </ul>
     </section>
   {{ end }}
 
   {{ partial "comment-form.html" . }}
-
-{{end}}
+{{ end }}

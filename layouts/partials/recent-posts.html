@@ -4,7 +4,7 @@
     <ul style="list-style: none; padding-left: 0; margin: 0;">
       {{ range first 5 (sort .Site.RegularPages "Date" "desc") }}
         <li style="margin-bottom: 1rem;">
-          <small>{{ .Date.Format "Jan 2, 2006" }} — {{ .Section | humanize | title}}</small><br>
+          <small>{{ partial "prettydate.html" . }} — {{ .Section | humanize | title}}</small><br>
           <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
           
         </li>
