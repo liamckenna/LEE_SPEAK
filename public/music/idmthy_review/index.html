@@ -183,36 +183,6 @@
 
 
   
-    <section class="comments-thread">
-      <h3>Comments</h3>
-      <ul style="list-style-type: none; padding-left: 0;">
-        
-          
-          <li style="margin-bottom: 1.5rem;">
-            <div style="display: flex; justify-content: space-between; align-items: baseline;">
-              <h4 style="margin: 0;">eac</h4>
-              <span style="font-size: 0.9rem; color: #888;">
-                5/2/25 @ 7:10 PM
-              </span>
-            </div>
-            <p style="margin-top: 0.5rem;">eafe</p>
-          </li>
-        
-          
-          <li style="margin-bottom: 1.5rem;">
-            <div style="display: flex; justify-content: space-between; align-items: baseline;">
-              <h4 style="margin: 0;">Liam</h4>
-              <span style="font-size: 0.9rem; color: #888;">
-                5/2/25 @ 7:17 PM
-              </span>
-            </div>
-            <p style="margin-top: 0.5rem;">Fuck yoU
-</p>
-          </li>
-        
-      </ul>
-    </section>
-  
 
   <section class="comments">
   <h3>Leave a comment</h3>
@@ -246,6 +216,18 @@
 </section>
 
 
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.comment-date').forEach(function(el) {
+    var iso = el.getAttribute('datetime');
+    var dt  = new Date(iso);
+    var date = dt.toLocaleDateString();
+    var time = dt.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+    el.textContent = date + ' @ ' + time;
+  });
+});
+</script>
 
 
 

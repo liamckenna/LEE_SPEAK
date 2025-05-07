@@ -137,7 +137,90 @@
   
 
   <content>
-    
+    <div style="display: flex; gap: 0; align-items: flex-start;">
+  <span style="
+    display:inline-block;
+    position:relative;
+    box-sizing:border-box;
+    width: 360px;
+    height: 245px;
+    background-image: url('/images/Border.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 360px 245px;
+    image-rendering: pixelated;
+  ">
+    <img
+      src="/images/pokeleef/volume-i/chapter-1/test.png"
+      width="346"
+      height="230"
+      style="
+        position:absolute;
+        top: 7px;
+        left: 7px;
+        image-rendering: pixelated;
+        border: none;
+        display: block;
+      "
+      alt="screenshot" />
+  </span>
+
+  <span style="
+    display:inline-block;
+    position:relative;
+    box-sizing:border-box;
+    width: 360px;
+    height: 245px;
+    background-image: url('/images/Border.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 360px 245px;
+    image-rendering: pixelated;
+  ">
+    <img
+      src="/images/pokeleef/volume-i/chapter-1/test.png"
+      width="346"
+      height="230"
+      style="
+        position:absolute;
+        top: 7px;
+        left: 7px;
+        image-rendering: pixelated;
+        border: none;
+        display: block;
+      "
+      alt="screenshot" />
+  </span>
+
+</div>
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 720px;
+  height: 490px;
+  background-image: url('/images/Border.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 720px 490px;
+  image-rendering: pixelated;
+">
+  <img
+    src="/images/pokeleef/volume-i/chapter-1/test.png"
+    width="691"
+    height="461"
+    style="
+      position:absolute;
+      top: 14px;
+      left: 14px;
+      image-rendering: pixelated;
+      border: none;
+      display: block;
+    "
+    alt="screenshot" />
+</span>
+
+
   </content>
 
   
@@ -194,6 +277,18 @@
 </section>
 
 
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.comment-date').forEach(function(el) {
+    var iso = el.getAttribute('datetime');
+    var dt  = new Date(iso);
+    var date = dt.toLocaleDateString();
+    var time = dt.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+    el.textContent = date + ' @ ' + time;
+  });
+});
+</script>
 
 
 

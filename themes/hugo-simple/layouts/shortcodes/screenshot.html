@@ -1,21 +1,49 @@
-{{ $src := .Get "src" }}
-{{ $scale := default 1 (.Get "scale" | float) }}
-{{ $baseWidth := 250}}
-{{ $baseHeight := 170 }}
+{{- /* layouts/shortcodes/screenshot.html */ -}}
+{{- $src      := .Get "src" -}}
+{{- $scale    := default 1 (.Get "scale" | float) -}}
 
-{{ $width := printf "%.0f" (mul $baseWidth $scale) }}
-{{ $height := printf "%.0f" (mul $baseHeight $scale) }}
+{{- /* dimensions */ -}}
+{{- $baseW    := 250 -}}
+{{- $baseH    := 170 -}}
+{{- $imgW     := 240 -}}
+{{- $imgH     := 160 -}}
 
-<img
-  src="{{$src}}" 
-  style="display: inline-block;
-    vertical-align: top;
-    image-rendering: pixelated;
-    box-sizing: border-box;
-    width: {{ $width }}px;
-    height: {{ $height }}px;
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-shadow: none;"/>
+{{- /* half-border = (base – img) / 2 = 5px */ -}}
+{{- $pad      := div (sub $baseW $imgW) 2 -}}
 
+{{- /* scaled dims */ -}}
+{{- $cW       := mul $baseW $scale -}}   {{/* container W */}}
+{{- $cH       := mul $baseH $scale -}}   {{/* container H */}}
+{{- $b        := mul $pad   $scale -}}   {{/* inset */}}
+{{- $sW       := mul $imgW  $scale -}}   {{/* image W */}}
+{{- $sH       := mul $imgH  $scale -}}   {{/* image H */}}
+
+{{- /* build URL to your static image */ -}}
+{{- $borderURL := "images/Border.png" | relURL -}}
+
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: {{ printf "%.0f" $cW }}px;
+  height: {{ printf "%.0f" $cH }}px;
+  background-image: url('{{ $borderURL }}');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: {{ printf "%.0f" $cW }}px {{ printf "%.0f" $cH }}px;
+  image-rendering: pixelated;
+">
+  <img
+    src="{{ $src }}"
+    width="{{ printf "%.0f" $sW }}"
+    height="{{ printf "%.0f" $sH }}"
+    style="
+      position:absolute;
+      top: {{ printf "%.0f" $b }}px;
+      left: {{ printf "%.0f" $b }}px;
+      image-rendering: pixelated;
+      border: none;
+      display: block;
+    "
+    alt="screenshot" />
+</span>

@@ -8,13 +8,16 @@
       <h3>Comments</h3>
       <ul style="list-style-type: none; padding-left: 0;">
         {{ range $comments }}
-          {{ $dt := (.date | time) }}
+          {{ $dt := (time .date).UTC }}
           <li style="margin-bottom: 1.5rem;">
             <div style="display: flex; justify-content: space-between; align-items: baseline;">
               <h4 style="margin: 0;">{{ .name }}</h4>
-              <span style="font-size: 0.9rem; color: #888;">
-                {{ $dt.Format "1/2/06" }} @ {{ $dt.Format "3:04 PM" }}
-              </span>
+              <time
+                class="comment-date"
+                style="font-size: 0.9rem; color: #888;"
+                datetime='{{ $dt.Format "2006-01-02T15:04:05Z" }}'>
+                {{ $dt.Format "1/2/06 @ 3:04 PM" }}
+              </time>
             </div>
             <p style="margin-top: 0.5rem;">{{ .comment }}</p>
           </li>
@@ -25,3 +28,15 @@
 
   {{ partial "comment-form.html" . }}
 {{ end }}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.comment-date').forEach(function(el) {
+    var iso = el.getAttribute('datetime');
+    var dt  = new Date(iso);
+    var date = dt.toLocaleDateString();
+    var time = dt.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+    el.textContent = date + ' @ ' + time;
+  });
+});
+</script>

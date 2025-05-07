@@ -206,6 +206,18 @@ was not going to be of any use if left to his own devices. I had no choice but t
 
 
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.comment-date').forEach(function(el) {
+    var iso = el.getAttribute('datetime');
+    var dt  = new Date(iso);
+    var date = dt.toLocaleDateString();
+    var time = dt.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+    el.textContent = date + ' @ ' + time;
+  });
+});
+</script>
+
 
 
 

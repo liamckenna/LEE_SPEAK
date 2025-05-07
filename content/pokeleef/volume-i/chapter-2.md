@@ -10,7 +10,7 @@ next: /pokeleef/volume-i/chapter-3/
 
 #### I hate being pitied.
 
-The woman at the front desk saw me crying and offered to heal my pokémon entirely for free. As much as I hate taking handouts, she is saving me like ₽600, which is at least a whole pokeball.
+The woman at the front desk saw me crying and offered to heal my pokémon entirely for free. As much as I hate taking handouts, she was saving me like ₽600, which is at least a whole pokeball.
 
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/1.1.png" scale="2.88" >}}
 
@@ -32,45 +32,46 @@ SKRILEX {{< sprite firered-leafgreen beedrill tight>}} doesn't remember his fami
 
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/2.5.png" scale="2.88" >}}
 
-Anywho, I got a text from Leaf telling me to meet him on the road west of Viridian City at noon. I showed up a couple minutes early becuase I wanna jump him and take his squirtle{{< sprite firered-leafgreen squirtle tight>}}. 
+Anywho, I got a text from Leaf telling me to meet him on the road west of Viridian City at noon. I showed up a couple minutes early because I wanna jump him and take his squirtle{{< sprite firered-leafgreen squirtle tight>}}. 
 
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/3.1.png" scale="2.88" >}}
 
-Waiting, waiting, waaiiaiiaiii
+Waiting, waiting, waaiiaiiaiii-
 
 <div style="display: flex; gap: 0; align-items: flex-start;">
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/4.1.png" scale="1.44" >}}
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/4.2.png" scale="1.44" >}}
 </div>
 
-OWWWWW dude I feel right onto the, the uhh, the um... 
+I fell right onto the, the uhh, the um... 
 
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/4.3.png" scale="2.88" >}}
 
 
-Why is there tile flooring in a grass field?
+The tile flooring? Why is there tile flooring in a grass field?
 
 <div style="display: flex; gap: 0; align-items: flex-start;">
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/5.1.png" scale="1.44" >}}
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/5.2.png" scale="1.44" >}}
 </div>
 
-Damnit.
+God damnit.
 
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/5.3.png" scale="2.88" >}}
 
-Dumbass thinks his stupid bird will stand a chance against my lighting rat. 
+I knew LEAF was about to start with his bird. Don't ask me how -- it's a trade secret.
+Part of what makes me the incredible trainer I am. I remembered watching the first episode
+of the anime and how quickly all those sparrows got fried from Ash's pikachu{{< sprite firered-leafgreen pikachu tight>}}.
 
-GO PIKABLUE{{< sprite firered-leafgreen pikachu tight>}}!
+I knew exactly who to use. "GO PIKABLUE{{< sprite firered-leafgreen pikachu tight>}}!"
 
-<div style="display: flex; gap: 0; align-items: flex-start;">
-{{< screenshot src="/images/pokeleef/volume-i/chapter-2/5.4.png" scale="1.44" >}}
-{{< screenshot src="/images/pokeleef/volume-i/chapter-2/5.5.png" scale="1.44" >}}
-</div>
+
 
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/5.6.png" scale="2.88" >}}
 
-Wrong pokéball.
+Wrong pokéball. I really should start labeling these things. 
+
+"You got this, LVL 2 RATT{{< sprite firered-leafgreen rattata tight>}}!"
 
 <div style="display: flex; gap: 0; align-items: flex-start;">
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/6.1.png" scale="1.44" >}}
@@ -81,6 +82,7 @@ Poor fucker never stood a chance. Didn't really have time to get to know him tho
 
 **REST IN PEACE, LVL 2 RATT{{< sprite firered-leafgreen rattata tight>}}.** 
 
-You gave me enough time to find the right pokéball. What a beautiful distraction.
+The late rattata gave me enough time to frantically open each pokeball and figure out which one was which.
+A beautiful distraction from a true martyr.
 
 **GO, PIKABLUE{{< sprite firered-leafgreen pikachu tight>}}!**
