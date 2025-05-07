@@ -23,7 +23,7 @@
 }
 
 /* Dark theme */
-/*
+
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
@@ -42,7 +42,7 @@
     opacity: 0.8;
   }
 }
-*/
+
 
 /* Reset box-sizing */
 *, *::before, *::after {
