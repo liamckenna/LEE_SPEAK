@@ -9,7 +9,7 @@
     <managingEditor>lee@liamdouglas.com (Liam McKenna)</managingEditor>
     <webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster>
     <copyright>© 2025 Liam McKenna</copyright>
-    <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preface</title>
@@ -545,6 +545,39 @@ was not going to be of any use if left to his own devices. I had no choice but t
       <guid>http://localhost:1313/pokeleef/volume-i/chapter-4/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>The Mojang Theory</title>
+      <link>http://localhost:1313/gaming/mojang/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
+      <guid>http://localhost:1313/gaming/mojang/</guid>
+      <description>&lt;p&gt;Like many of those who grew up on Minecraft, I&amp;rsquo;ve often struggled to understand its developer&amp;rsquo;s philosophy
+when it comes to game updates. Like, I get it, they don&amp;rsquo;t want to change the game too much and risk undermining
+the core identity of the game, but there&amp;rsquo;s so much that notion alone doesn&amp;rsquo;t account for.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s bullshit to begin with &amp;ndash; I mean in practice, Mojang has done plenty to rip away the core of Minecraft as
+an experience. The game was built on dynamic systems and, in the beginning, had its identity entrenched in
+multifaceted mechanics and items. At some point we started getting a slew of updates with one-off ideas that
+failed to contribute to the greater dynamic gameplay of the game&amp;rsquo;s foundation.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Like many of those who grew up on Minecraft, I&rsquo;ve often struggled to understand its developer&rsquo;s philosophy
+when it comes to game updates. Like, I get it, they don&rsquo;t want to change the game too much and risk undermining
+the core identity of the game, but there&rsquo;s so much that notion alone doesn&rsquo;t account for.</p>
+<p>It&rsquo;s bullshit to begin with &ndash; I mean in practice, Mojang has done plenty to rip away the core of Minecraft as
+an experience. The game was built on dynamic systems and, in the beginning, had its identity entrenched in
+multifaceted mechanics and items. At some point we started getting a slew of updates with one-off ideas that
+failed to contribute to the greater dynamic gameplay of the game&rsquo;s foundation.</p>
+<p>&ldquo;Sure, let&rsquo;s add a mob called the sniffer that only has use for a brand new entirely superficial fossil digging
+mechanic. For the <em>lore</em>.&rdquo;</p>
+<p>I can&rsquo;t honestly tell how much mojang cares about maintaining the game&rsquo;s identity. If that&rsquo;s what they&rsquo;re going for,
+they&rsquo;re not doing a very good job in my opinion.</p>
+<p>Regardless, the game has bugs that haven&rsquo;t been addressed for over a decade (see the <a href="https://bugs-legacy.mojang.com/browse/MC-1794?attachmentSortBy=fileName&amp;utm_source=chatgpt.com">item stitching</a>, for example).
+Thankfully there are an endless number of mods that can account for mojang&rsquo;s inaction. And this is where it hit me
+&ndash; does Mojang not see bugs as issues so long as someone in the community fixes it for them? Even further, does this
+extend to actual game features? I mean, surely overhauls like sodium and optifine takes the onus off them to optimize
+their game.</p>
+<p>So here goes the theory: <strong>Mojang does not care to do any work that has not already been done for them.</strong> If a mod has
+done so, then their hands are clean. They don&rsquo;t even need to implement it themselves! Just quietly let each unsatisfied
+player shuffle over to fabric and forge and figure it out themselves. It&rsquo;s genius, really.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Some Scattered Thoughts on My Favorite Piece of Art</title>
