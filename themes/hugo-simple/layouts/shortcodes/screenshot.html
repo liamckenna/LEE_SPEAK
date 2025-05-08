@@ -1,12 +1,37 @@
 {{- /* layouts/shortcodes/screenshot.html */ -}}
 {{- $src      := .Get "src" -}}
-{{- $scale    := default 1 (.Get "scale" | float) -}}
+
+{{- $raw := default "1" (.Get "scale") -}}
+
+{{/* parse into a float and stash in $scale */}}
+{{- $scale := ($raw | float) -}}
+
+{{/* now reassign $scale based on the raw value */}}
+{{- if eq $raw "1" -}}
+  {{- $scale = 1.445 -}}
+{{- else if eq $raw "2" -}}
+  {{- $scale = 2.895 -}}
+{{- end -}}
+
+
 
 {{- /* dimensions */ -}}
 {{- $baseW    := 250 -}}
 {{- $baseH    := 170 -}}
 {{- $imgW     := 240 -}}
 {{- $imgH     := 160 -}}
+
+{{- $dx := 0 -}}
+{{- $dy := 0 -}}
+{{- /* if it’s exactly 2.88, shift left 1px and down 1px */ -}}
+{{- if eq $scale 2.895 -}}
+  {{- $dx = .5 -}}
+  {{- $dy = .5  -}}
+{{- end -}}
+
+{{- if eq $scale 1.445 -}}
+  {{- $dy = .5  -}}
+{{- end -}}
 
 {{- /* half-border = (base – img) / 2 = 5px */ -}}
 {{- $pad      := div (sub $baseW $imgW) 2 -}}
@@ -20,6 +45,8 @@
 
 {{- /* build URL to your static image */ -}}
 {{- $borderURL := "images/Border.png" | relURL -}}
+
+
 
 <span style="
   display:inline-block;
@@ -44,6 +71,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate({{ $dx }}px, {{ $dy }}px);
     "
     alt="screenshot" />
 </span>
