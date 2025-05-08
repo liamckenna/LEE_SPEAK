@@ -5,6 +5,7 @@ url: /pokeleef/volume-i/chapter-3/
 weight: 1103
 prev: /pokeleef/volume-i/chapter-2/
 next: /pokeleef/volume-i/chapter-4/
+draft: true
 ---
 
 #### My dearest reader...

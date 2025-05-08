@@ -63,7 +63,7 @@ DaDmnit.
 
 I knew LEAF was about to start with his bird. Don't ask me how -- it's a trade secret.
 Part of what makes me the incredible trainer I am. I remembered watching the first episode
-of the anime and how quickly all those sparrows got fried from Ash's pikachu{{< sprite firered-leafgreen pikachu tight>}}.
+of the anime and how quickly all those sparrows got fried from Ash's Pikachu{{< sprite firered-leafgreen pikachu tight>}}.
 
 I knew exactly who to use. "GO PIKABLUE{{< sprite firered-leafgreen pikachu tight>}}!"
 
@@ -112,7 +112,7 @@ right as I picked up my grand prize...
 
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/10.1.png" scale="2" >}}
 
-My left arm is still numb. Thankfully, LEAF was on his phone and missed the stunt
+My left leg is still numb. Thankfully, LEAF was on his phone and missed the stunt
 I tried to pull. I limped back to my trainer position in time before he looked up
 and saw his dead Squirtle{{< sprite firered-leafgreen squirtle tight>}}. 
 

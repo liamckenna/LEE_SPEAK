@@ -9,6 +9,7 @@
     <managingEditor>lee@liamdouglas.com (Liam McKenna)</managingEditor>
     <webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster>
     <copyright>© 2025 Liam McKenna</copyright>
+    <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pokeleef/volume-i/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 1 Title</title>
@@ -20,18 +21,18 @@
     display:inline-block;
     position:relative;
     box-sizing:border-box;
-    width: 360px;
-    height: 245px;
+    width: 361px;
+    height: 246px;
     background-image: url(&#39;/images/Border.png&#39;);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 360px 245px;
+    background-size: 361px 246px;
     image-rendering: pixelated;
   &#34;&gt;
     &lt;img
       src=&#34;http://localhost:1313/images/pokeleef/volume-i/chapter-1/test.png&#34;
-      width=&#34;346&#34;
-      height=&#34;230&#34;
+      width=&#34;347&#34;
+      height=&#34;231&#34;
       style=&#34;
         position:absolute;
         top: 7px;
@@ -39,6 +40,7 @@
         image-rendering: pixelated;
         border: none;
         display: block;
+        transform: translate(0px, 0.5px);
       &#34;
       alt=&#34;screenshot&#34; /&gt;
   &lt;/span&gt;
@@ -47,18 +49,18 @@
     display:inline-block;
     position:relative;
     box-sizing:border-box;
-    width: 360px;
-    height: 245px;
+    width: 361px;
+    height: 246px;
     background-image: url(&#39;/images/Border.png&#39;);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 360px 245px;
+    background-size: 361px 246px;
     image-rendering: pixelated;
   &#34;&gt;
     &lt;img
       src=&#34;http://localhost:1313/images/pokeleef/volume-i/chapter-1/test.png&#34;
-      width=&#34;346&#34;
-      height=&#34;230&#34;
+      width=&#34;347&#34;
+      height=&#34;231&#34;
       style=&#34;
         position:absolute;
         top: 7px;
@@ -66,6 +68,7 @@
         image-rendering: pixelated;
         border: none;
         display: block;
+        transform: translate(0px, 0.5px);
       &#34;
       alt=&#34;screenshot&#34; /&gt;
   &lt;/span&gt;
@@ -75,18 +78,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 720px;
-  height: 490px;
+  width: 724px;
+  height: 492px;
   background-image: url(&#39;/images/Border.png&#39;);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 720px 490px;
+  background-size: 724px 492px;
   image-rendering: pixelated;
 &#34;&gt;
   &lt;img
     src=&#34;http://localhost:1313/images/pokeleef/volume-i/chapter-1/test.png&#34;
-    width=&#34;691&#34;
-    height=&#34;461&#34;
+    width=&#34;695&#34;
+    height=&#34;463&#34;
     style=&#34;
       position:absolute;
       top: 14px;
@@ -94,6 +97,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0.5px, 0.5px);
     &#34;
     alt=&#34;screenshot&#34; /&gt;
 &lt;/span&gt;</description>
@@ -102,18 +106,18 @@
     display:inline-block;
     position:relative;
     box-sizing:border-box;
-    width: 360px;
-    height: 245px;
+    width: 361px;
+    height: 246px;
     background-image: url('/images/Border.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 360px 245px;
+    background-size: 361px 246px;
     image-rendering: pixelated;
   ">
     <img
       src="/images/pokeleef/volume-i/chapter-1/test.png"
-      width="346"
-      height="230"
+      width="347"
+      height="231"
       style="
         position:absolute;
         top: 7px;
@@ -121,6 +125,7 @@
         image-rendering: pixelated;
         border: none;
         display: block;
+        transform: translate(0px, 0.5px);
       "
       alt="screenshot" />
   </span>
@@ -129,18 +134,18 @@
     display:inline-block;
     position:relative;
     box-sizing:border-box;
-    width: 360px;
-    height: 245px;
+    width: 361px;
+    height: 246px;
     background-image: url('/images/Border.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 360px 245px;
+    background-size: 361px 246px;
     image-rendering: pixelated;
   ">
     <img
       src="/images/pokeleef/volume-i/chapter-1/test.png"
-      width="346"
-      height="230"
+      width="347"
+      height="231"
       style="
         position:absolute;
         top: 7px;
@@ -148,6 +153,7 @@
         image-rendering: pixelated;
         border: none;
         display: block;
+        transform: translate(0px, 0.5px);
       "
       alt="screenshot" />
   </span>
@@ -157,18 +163,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 720px;
-  height: 490px;
+  width: 724px;
+  height: 492px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 720px 490px;
+  background-size: 724px 492px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-1/test.png"
-    width="691"
-    height="461"
+    width="695"
+    height="463"
     style="
       position:absolute;
       top: 14px;
@@ -176,6 +182,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0.5px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -183,9 +190,9 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>Chapter 2 Title</title>
+      <title>I Killed His Squirtle</title>
       <link>http://localhost:1313/pokeleef/volume-i/chapter-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
       <guid>http://localhost:1313/pokeleef/volume-i/chapter-2/</guid>
       <description>&lt;h4 id=&#34;i-hate-being-pitied&#34;&gt;I hate being pitied.&lt;/h4&gt;
 &lt;p&gt;The woman at the front desk saw me crying and offered to heal my pokémon entirely for free. As much as I hate taking handouts, she was saving me like ₽600, which is at least a whole pokeball.&lt;/p&gt;
@@ -193,18 +200,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 720px;
-  height: 490px;
+  width: 724px;
+  height: 492px;
   background-image: url(&#39;/images/Border.png&#39;);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 720px 490px;
+  background-size: 724px 492px;
   image-rendering: pixelated;
 &#34;&gt;
   &lt;img
     src=&#34;http://localhost:1313/images/pokeleef/volume-i/chapter-2/1.1.png&#34;
-    width=&#34;691&#34;
-    height=&#34;461&#34;
+    width=&#34;695&#34;
+    height=&#34;463&#34;
     style=&#34;
       position:absolute;
       top: 14px;
@@ -212,6 +219,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0.5px, 0.5px);
     &#34;
     alt=&#34;screenshot&#34; /&gt;
 &lt;/span&gt;
@@ -229,18 +237,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 720px;
-  height: 490px;
+  width: 724px;
+  height: 492px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 720px 490px;
+  background-size: 724px 492px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/1.1.png"
-    width="691"
-    height="461"
+    width="695"
+    height="463"
     style="
       position:absolute;
       top: 14px;
@@ -248,6 +256,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0.5px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -264,18 +273,18 @@
     display:inline-block;
     position:relative;
     box-sizing:border-box;
-    width: 360px;
-    height: 245px;
+    width: 361px;
+    height: 246px;
     background-image: url('/images/Border.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 360px 245px;
+    background-size: 361px 246px;
     image-rendering: pixelated;
   ">
     <img
       src="/images/pokeleef/volume-i/chapter-2/2.1.png"
-      width="346"
-      height="230"
+      width="347"
+      height="231"
       style="
         position:absolute;
         top: 7px;
@@ -283,6 +292,7 @@
         image-rendering: pixelated;
         border: none;
         display: block;
+        transform: translate(0px, 0.5px);
       "
       alt="screenshot" />
   </span>
@@ -291,18 +301,18 @@
     display:inline-block;
     position:relative;
     box-sizing:border-box;
-    width: 360px;
-    height: 245px;
+    width: 361px;
+    height: 246px;
     background-image: url('/images/Border.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 360px 245px;
+    background-size: 361px 246px;
     image-rendering: pixelated;
   ">
     <img
       src="/images/pokeleef/volume-i/chapter-2/2.2.png"
-      width="346"
-      height="230"
+      width="347"
+      height="231"
       style="
         position:absolute;
         top: 7px;
@@ -310,6 +320,7 @@
         image-rendering: pixelated;
         border: none;
         display: block;
+        transform: translate(0px, 0.5px);
       "
       alt="screenshot" />
   </span>
@@ -320,18 +331,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 360px;
-  height: 245px;
+  width: 361px;
+  height: 246px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 360px 245px;
+  background-size: 361px 246px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/2.3.png"
-    width="346"
-    height="230"
+    width="347"
+    height="231"
     style="
       position:absolute;
       top: 7px;
@@ -339,6 +350,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -347,18 +359,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 360px;
-  height: 245px;
+  width: 361px;
+  height: 246px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 360px 245px;
+  background-size: 361px 246px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/2.4.png"
-    width="346"
-    height="230"
+    width="347"
+    height="231"
     style="
       position:absolute;
       top: 7px;
@@ -366,6 +378,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -374,27 +387,23 @@
 <p>SKRILEX <img src="https://img.pokemondb.net/sprites/firered-leafgreen/normal/beedrill.png"
      alt="Beedrill"
      style="height:48px; vertical-align:middle; margin: -0.5rem">
- doesn&rsquo;t remember his family anymore. He doesn&rsquo;t remember how it feels to be loved. His childhood has been robbed from him and I couldn&rsquo;t be more pleased.
-<strong>SKRILEX <img src="https://img.pokemondb.net/sprites/firered-leafgreen/normal/beedrill.png"
-     alt="Beedrill"
-     style="height:48px; vertical-align:middle; margin: -0.5rem">
- has bloodlust.</strong></p>
+ doesn&rsquo;t remember his family anymore. He doesn&rsquo;t remember how it feels to be loved. His childhood has been robbed from him and I couldn&rsquo;t be more pleased.</p>
 <span style="
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 720px;
-  height: 490px;
+  width: 724px;
+  height: 492px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 720px 490px;
+  background-size: 724px 492px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/2.5.png"
-    width="691"
-    height="461"
+    width="695"
+    height="463"
     style="
       position:absolute;
       top: 14px;
@@ -402,11 +411,16 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0.5px, 0.5px);
     "
     alt="screenshot" />
 </span>
 
-<p>Anywho, I got a text from Leaf telling me to meet him on the road west of Viridian City at noon. I showed up a couple minutes early because I wanna jump him and take his squirtle<img src="https://img.pokemondb.net/sprites/firered-leafgreen/normal/squirtle.png"
+<p><strong>SKRILEX <img src="https://img.pokemondb.net/sprites/firered-leafgreen/normal/beedrill.png"
+     alt="Beedrill"
+     style="height:48px; vertical-align:middle; margin: -0.5rem">
+ has bloodlust.</strong></p>
+<p>Anywho, I got a text from Leaf telling me to meet him on the road west of Viridian City at noon. I showed up a couple minutes early because I wanna jump him and take his Squirtle<img src="https://img.pokemondb.net/sprites/firered-leafgreen/normal/squirtle.png"
      alt="Squirtle"
      style="height:48px; vertical-align:middle; margin: -0.5rem">
 .</p>
@@ -414,18 +428,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 720px;
-  height: 490px;
+  width: 724px;
+  height: 492px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 720px 490px;
+  background-size: 724px 492px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/3.1.png"
-    width="691"
-    height="461"
+    width="695"
+    height="463"
     style="
       position:absolute;
       top: 14px;
@@ -433,6 +447,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0.5px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -443,18 +458,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 360px;
-  height: 245px;
+  width: 361px;
+  height: 246px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 360px 245px;
+  background-size: 361px 246px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/4.1.png"
-    width="346"
-    height="230"
+    width="347"
+    height="231"
     style="
       position:absolute;
       top: 7px;
@@ -462,6 +477,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -470,18 +486,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 360px;
-  height: 245px;
+  width: 361px;
+  height: 246px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 360px 245px;
+  background-size: 361px 246px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/4.2.png"
-    width="346"
-    height="230"
+    width="347"
+    height="231"
     style="
       position:absolute;
       top: 7px;
@@ -489,6 +505,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -499,18 +516,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 720px;
-  height: 490px;
+  width: 724px;
+  height: 492px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 720px 490px;
+  background-size: 724px 492px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/4.3.png"
-    width="691"
-    height="461"
+    width="695"
+    height="463"
     style="
       position:absolute;
       top: 14px;
@@ -518,6 +535,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0.5px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -528,18 +546,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 360px;
-  height: 245px;
+  width: 361px;
+  height: 246px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 360px 245px;
+  background-size: 361px 246px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/5.1.png"
-    width="346"
-    height="230"
+    width="347"
+    height="231"
     style="
       position:absolute;
       top: 7px;
@@ -547,6 +565,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -555,18 +574,18 @@
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 360px;
-  height: 245px;
+  width: 361px;
+  height: 246px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 360px 245px;
+  background-size: 361px 246px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/5.2.png"
-    width="346"
-    height="230"
+    width="347"
+    height="231"
     style="
       position:absolute;
       top: 7px;
@@ -574,28 +593,29 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0px, 0.5px);
     "
     alt="screenshot" />
 </span>
 
 </div>
-<p>God damnit.</p>
+<p>DaDmnit.</p>
 <span style="
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 720px;
-  height: 490px;
+  width: 724px;
+  height: 492px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 720px 490px;
+  background-size: 724px 492px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/5.3.png"
-    width="691"
-    height="461"
+    width="695"
+    height="463"
     style="
       position:absolute;
       top: 14px;
@@ -603,6 +623,7 @@
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0.5px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -621,18 +642,18 @@ of the anime and how quickly all those sparrows got fried from Ash&rsquo;s pikac
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 720px;
-  height: 490px;
+  width: 724px;
+  height: 492px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 720px 490px;
+  background-size: 724px 492px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/5.6.png"
-    width="691"
-    height="461"
+    width="695"
+    height="463"
     style="
       position:absolute;
       top: 14px;
@@ -640,6 +661,7 @@ of the anime and how quickly all those sparrows got fried from Ash&rsquo;s pikac
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0.5px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -654,18 +676,18 @@ of the anime and how quickly all those sparrows got fried from Ash&rsquo;s pikac
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 360px;
-  height: 245px;
+  width: 361px;
+  height: 246px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 360px 245px;
+  background-size: 361px 246px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/6.1.png"
-    width="346"
-    height="230"
+    width="347"
+    height="231"
     style="
       position:absolute;
       top: 7px;
@@ -673,6 +695,7 @@ of the anime and how quickly all those sparrows got fried from Ash&rsquo;s pikac
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -681,18 +704,18 @@ of the anime and how quickly all those sparrows got fried from Ash&rsquo;s pikac
   display:inline-block;
   position:relative;
   box-sizing:border-box;
-  width: 360px;
-  height: 245px;
+  width: 361px;
+  height: 246px;
   background-image: url('/images/Border.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 360px 245px;
+  background-size: 361px 246px;
   image-rendering: pixelated;
 ">
   <img
     src="/images/pokeleef/volume-i/chapter-2/6.2.png"
-    width="346"
-    height="230"
+    width="347"
+    height="231"
     style="
       position:absolute;
       top: 7px;
@@ -700,6 +723,7 @@ of the anime and how quickly all those sparrows got fried from Ash&rsquo;s pikac
       image-rendering: pixelated;
       border: none;
       display: block;
+      transform: translate(0px, 0.5px);
     "
     alt="screenshot" />
 </span>
@@ -716,6 +740,201 @@ A beautiful distraction from a true martyr.</p>
      alt="Pikachu"
      style="height:48px; vertical-align:middle; margin: -0.5rem">
 !</strong></p>
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 724px;
+  height: 492px;
+  background-image: url('/images/Border.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 724px 492px;
+  image-rendering: pixelated;
+">
+  <img
+    src="/images/pokeleef/volume-i/chapter-2/7.1.png"
+    width="695"
+    height="463"
+    style="
+      position:absolute;
+      top: 14px;
+      left: 14px;
+      image-rendering: pixelated;
+      border: none;
+      display: block;
+      transform: translate(0.5px, 0.5px);
+    "
+    alt="screenshot" />
+</span>
+
+<p>&ldquo;THUNDERSHOCK!&rdquo;</p>
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 724px;
+  height: 492px;
+  background-image: url('/images/Border.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 724px 492px;
+  image-rendering: pixelated;
+">
+  <img
+    src="/images/pokeleef/volume-i/chapter-2/8.1.png"
+    width="695"
+    height="463"
+    style="
+      position:absolute;
+      top: 14px;
+      left: 14px;
+      image-rendering: pixelated;
+      border: none;
+      display: block;
+      transform: translate(0.5px, 0.5px);
+    "
+    alt="screenshot" />
+</span>
+
+<p>Just like in the movies, PIKABLUE<img src="https://img.pokemondb.net/sprites/firered-leafgreen/normal/pikachu.png"
+     alt="Pikachu"
+     style="height:48px; vertical-align:middle; margin: -0.5rem">
+.</p>
+<p>Out came that Squirtle<img src="https://img.pokemondb.net/sprites/firered-leafgreen/normal/squirtle.png"
+     alt="Squirtle"
+     style="height:48px; vertical-align:middle; margin: -0.5rem">
+.</p>
+<p>&ldquo;THUNDERSHOCK again!&rdquo; I said, praying for a paralysis.</p>
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 724px;
+  height: 492px;
+  background-image: url('/images/Border.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 724px 492px;
+  image-rendering: pixelated;
+">
+  <img
+    src="/images/pokeleef/volume-i/chapter-2/9.1.png"
+    width="695"
+    height="463"
+    style="
+      position:absolute;
+      top: 14px;
+      left: 14px;
+      image-rendering: pixelated;
+      border: none;
+      display: block;
+      transform: translate(0.5px, 0.5px);
+    "
+    alt="screenshot" />
+</span>
+
+<p>GOD IS REAL AND THIS WAS CHANCE TO SHOW HIM WHAT I&rsquo;M MADE OF. I WANTED THAT SQUIRTLE<img src="https://img.pokemondb.net/sprites/firered-leafgreen/normal/squirtle.png"
+     alt="Squirtle"
+     style="height:48px; vertical-align:middle; margin: -0.5rem">
+
+FOR MYSELF AND THIS IS THE PERFECT CHANCE.</p>
+<p>I ran onto the battlefield without a second thought. Maybe I should have though, because
+right as I picked up my grand prize&hellip;</p>
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 724px;
+  height: 492px;
+  background-image: url('/images/Border.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 724px 492px;
+  image-rendering: pixelated;
+">
+  <img
+    src="/images/pokeleef/volume-i/chapter-2/10.1.png"
+    width="695"
+    height="463"
+    style="
+      position:absolute;
+      top: 14px;
+      left: 14px;
+      image-rendering: pixelated;
+      border: none;
+      display: block;
+      transform: translate(0.5px, 0.5px);
+    "
+    alt="screenshot" />
+</span>
+
+<p>My left arm is still numb. Thankfully, LEAF was on his phone and missed the stunt
+I tried to pull. I limped back to my trainer position in time before he looked up
+and saw his dead Squirtle<img src="https://img.pokemondb.net/sprites/firered-leafgreen/normal/squirtle.png"
+     alt="Squirtle"
+     style="height:48px; vertical-align:middle; margin: -0.5rem">
+.</p>
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 724px;
+  height: 492px;
+  background-image: url('/images/Border.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 724px 492px;
+  image-rendering: pixelated;
+">
+  <img
+    src="/images/pokeleef/volume-i/chapter-2/10.2.png"
+    width="695"
+    height="463"
+    style="
+      position:absolute;
+      top: 14px;
+      left: 14px;
+      image-rendering: pixelated;
+      border: none;
+      display: block;
+      transform: translate(0.5px, 0.5px);
+    "
+    alt="screenshot" />
+</span>
+
+<p>Hah. It wasn&rsquo;t luck, moron. The only person who got lucky was you. If I got my hands
+on your turtle I would&rsquo;ve been unstoppable.</p>
+<p>I wonder if I can buy one with the ₽1000 I got for winning.</p>
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 724px;
+  height: 492px;
+  background-image: url('/images/Border.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 724px 492px;
+  image-rendering: pixelated;
+">
+  <img
+    src="/images/pokeleef/volume-i/chapter-2/11.1.png"
+    width="695"
+    height="463"
+    style="
+      position:absolute;
+      top: 14px;
+      left: 14px;
+      image-rendering: pixelated;
+      border: none;
+      display: block;
+      transform: translate(0.5px, 0.5px);
+    "
+    alt="screenshot" />
+</span>
+
+<p>POKéMON LEAGUE, here I come!</p>
 ]]></content:encoded>
     </item>
     <item>

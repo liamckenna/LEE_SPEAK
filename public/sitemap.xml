@@ -7,15 +7,22 @@
     <loc>http://localhost:1313/pokeleef/volume-i/chapter-1/</loc>
   </url><url>
     <loc>http://localhost:1313/pokeleef/volume-i/chapter-2/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pokeleef/volume-i/chapter-3/</loc>
   </url><url>
     <loc>http://localhost:1313/pokeleef/volume-i/chapter-4/</loc>
   </url><url>
-    <loc>http://localhost:1313/gaming/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pokeleef/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pokeleef/volume-i/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gaming/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/gaming/mojang/</loc>
@@ -29,10 +36,6 @@
   </url><url>
     <loc>http://localhost:1313/miscellaneous/</loc>
   </url><url>
-    <loc>http://localhost:1313/pokeleef/</loc>
-  </url><url>
     <loc>http://localhost:1313/sweet_synopsis/</loc>
-  </url><url>
-    <loc>http://localhost:1313/pokeleef/volume-i/</loc>
   </url>
 </urlset>
