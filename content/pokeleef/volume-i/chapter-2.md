@@ -57,7 +57,7 @@ The tile flooring? Why is there tile flooring in a grass field?
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/5.2.png" >}}
 </div>
 
-DaDmnit.
+Damnit.
 
 {{< screenshot src="/images/pokeleef/volume-i/chapter-2/5.3.png" scale="2" >}}
 
