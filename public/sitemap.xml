@@ -9,12 +9,16 @@
     <loc>http://localhost:1313/pokeleef/volume-i/chapter-2/</loc>
     <lastmod>2025-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pokeleef/volume-i/chapter-3/</loc>
-  </url><url>
     <loc>http://localhost:1313/pokeleef/volume-i/chapter-4/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sweet_synopsis/mario_gummies/</loc>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sweet_synopsis/</loc>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pokeleef/</loc>
     <lastmod>2025-05-08T00:00:00+00:00</lastmod>
@@ -35,7 +39,5 @@
     <lastmod>2025-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/miscellaneous/</loc>
-  </url><url>
-    <loc>http://localhost:1313/sweet_synopsis/</loc>
   </url>
 </urlset>
