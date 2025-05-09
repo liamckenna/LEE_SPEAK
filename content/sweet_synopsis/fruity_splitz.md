@@ -4,6 +4,7 @@ title: SweetTARTS Gummies Fruity Splitz
 date: 2025-05-09
 description: Episode I (Pilot)
 comments_disabled: false
+category_pin: false
 ---
 
 {{< image src="/images/sweet_synopsis/fruity_splitz/1.jpg" scale="1.0" >}}

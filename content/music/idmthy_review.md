@@ -6,6 +6,7 @@ title_line2: My Favorite Piece of Art
 date: 2025-02-13
 description: Quadeca's "I Didn't Mean to Haunt You"
 comments_disabled: false
+home_pin: true
 ---
 
 {{< image src="/images/music/idmthy_cover.jpg" scale="1.0" >}}
