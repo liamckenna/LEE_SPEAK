@@ -975,21 +975,67 @@ on your turtle I would&rsquo;ve been unstoppable.</p>
   &#34;
 /&gt;
 
-&lt;h2&gt; Final Score: 2½ bangins&lt;/h2&gt;
-&lt;h2&gt; ★★⯪☆☆&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Positives:&lt;/strong&gt;&lt;/p&gt;
-&lt;li style=&#34;margin-left: 1rem&#34;&gt;
-  +2: Strong assortment of six flavors.
-&lt;/li&gt;
-&lt;p&gt;&lt;strong&gt;Negatives:&lt;/strong&gt;&lt;/p&gt;
-&lt;li style=&#34;margin-left: 1rem&#34;&gt;
-  -1: The grease.
-&lt;/li&gt;
-&lt;li style=&#34;margin-left: 1rem&#34;&gt;
-  -1: Shitty manufacturing.
-&lt;/li&gt;
-&lt;h2&gt; Recommendation: 😐👎︎&lt;/h2&gt;
-&lt;p&gt;Only if you&amp;rsquo;re in japan. If you can find them cheap and relatively fresh, they&amp;rsquo;re well worth it.&lt;/p&gt;</description>
+&lt;p&gt;Text here&lt;/p&gt;
+&lt;p&gt;Text there&lt;/p&gt;
+&lt;div style=&#34;display: flex; gap: 0; align-items: flex-start;&#34;&gt;
+&lt;span style=&#34;
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 360px;
+  height: 270px;
+  background-image: url(&#39;/&#39;);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 360px 270px;
+  image-rendering: pixelated;
+&#34;&gt;
+  &lt;img
+    src=&#34;http://localhost:1313/images/sweet_synopsis/fruity_splitz/2.png&#34;
+    width=&#34;360&#34;
+    height=&#34;270&#34;
+    style=&#34;
+      position:absolute;
+      top: 0px;
+      left: 0px;
+      border: none;
+      display: block;
+      transform: translate(0px, 0px);
+    &#34;
+    alt=&#34;screenshot&#34; /&gt;
+&lt;/span&gt;
+
+&lt;span style=&#34;
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 360px;
+  height: 270px;
+  background-image: url(&#39;/&#39;);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 360px 270px;
+  image-rendering: pixelated;
+&#34;&gt;
+  &lt;img
+    src=&#34;http://localhost:1313/images/sweet_synopsis/fruity_splitz/5.jpg&#34;
+    width=&#34;360&#34;
+    height=&#34;270&#34;
+    style=&#34;
+      position:absolute;
+      top: 0px;
+      left: 0px;
+      border: none;
+      display: block;
+      transform: translate(0px, 0px);
+    &#34;
+    alt=&#34;screenshot&#34; /&gt;
+&lt;/span&gt;
+
+&lt;/div&gt;
+&lt;h2&gt; Final Score: 2 bangins&lt;/h2&gt;
+&lt;h2&gt; ★★☆☆☆&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Positives:&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[
 
 
@@ -1010,21 +1056,79 @@ on your turtle I would&rsquo;ve been unstoppable.</p>
   "
 />
 
-<h2> Final Score: 2½ bangins</h2>
-<h2> ★★⯪☆☆</h2>
+<p>Text here</p>
+<p>Text there</p>
+<div style="display: flex; gap: 0; align-items: flex-start;">
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 360px;
+  height: 270px;
+  background-image: url('/');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 360px 270px;
+  image-rendering: pixelated;
+">
+  <img
+    src="/images/sweet_synopsis/fruity_splitz/2.png"
+    width="360"
+    height="270"
+    style="
+      position:absolute;
+      top: 0px;
+      left: 0px;
+      border: none;
+      display: block;
+      transform: translate(0px, 0px);
+    "
+    alt="screenshot" />
+</span>
+
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: 360px;
+  height: 270px;
+  background-image: url('/');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 360px 270px;
+  image-rendering: pixelated;
+">
+  <img
+    src="/images/sweet_synopsis/fruity_splitz/5.jpg"
+    width="360"
+    height="270"
+    style="
+      position:absolute;
+      top: 0px;
+      left: 0px;
+      border: none;
+      display: block;
+      transform: translate(0px, 0px);
+    "
+    alt="screenshot" />
+</span>
+
+</div>
+<h2> Final Score: 2 bangins</h2>
+<h2> ★★☆☆☆</h2>
 <p><strong>Positives:</strong></p>
 <li style="margin-left: 1rem">
   +2: Strong assortment of six flavors.
 </li>
 <p><strong>Negatives:</strong></p>
 <li style="margin-left: 1rem">
-  -1: The grease.
+  -1½: The grease.
 </li>
 <li style="margin-left: 1rem">
-  -1: Shitty manufacturing.
+  -1: Poor manufacturing.
 </li>
-<h2> Recommendation: 😐👎︎</h2>
-<p>Only if you&rsquo;re in japan. If you can find them cheap and relatively fresh, they&rsquo;re well worth it.</p>
+<h2> Recommendation: ☹👎︎</h2>
+<p>Just get regular Sweet Tarts and avoid the grease.</p>
 ]]></content:encoded>
     </item>
     <item>

@@ -1,0 +1,63 @@
+{{- /* layouts/shortcodes/screenshot.html */ -}}
+{{- $src      := .Get "src" -}}
+
+{{- $raw := default "1" (.Get "scale") -}}
+
+{{/* parse into a float and stash in $scale */}}
+{{- $scale := ($raw | float) -}}
+
+{{/* now reassign $scale based on the raw value */}}
+
+
+
+{{- /* dimensions */ -}}
+{{- $baseW     := 720 -}}
+{{- $baseH     := 540 -}}
+{{- $imgW     := 720 -}}
+{{- $imgH     := 540 -}}
+
+{{- $dx := 0 -}}
+{{- $dy := 0 -}}
+
+
+{{- /* half-border = (base – img) / 2 = 5px */ -}}
+{{- $pad      := div (sub $baseW $imgW) 2 -}}
+
+{{- /* scaled dims */ -}}
+{{- $cW       := mul $baseW $scale -}}   {{/* container W */}}
+{{- $cH       := mul $baseH $scale -}}   {{/* container H */}}
+{{- $b        := mul $pad   $scale -}}   {{/* inset */}}
+{{- $sW       := mul $imgW  $scale -}}   {{/* image W */}}
+{{- $sH       := mul $imgH  $scale -}}   {{/* image H */}}
+
+{{- /* build URL to your static image */ -}}
+{{- $borderURL := "" | relURL -}}
+
+
+
+<span style="
+  display:inline-block;
+  position:relative;
+  box-sizing:border-box;
+  width: {{ printf "%.0f" $cW }}px;
+  height: {{ printf "%.0f" $cH }}px;
+  background-image: url('{{ $borderURL }}');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: {{ printf "%.0f" $cW }}px {{ printf "%.0f" $cH }}px;
+  image-rendering: pixelated;
+">
+  <img
+    src="{{ $src }}"
+    width="{{ printf "%.0f" $sW }}"
+    height="{{ printf "%.0f" $sH }}"
+    style="
+      position:absolute;
+      top: {{ printf "%.0f" $b }}px;
+      left: {{ printf "%.0f" $b }}px;
+      border: none;
+      display: block;
+      transform: translate({{ $dx }}px, {{ $dy }}px);
+    "
+    alt="screenshot" />
+</span>
