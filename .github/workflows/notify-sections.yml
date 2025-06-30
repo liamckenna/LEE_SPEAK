@@ -24,7 +24,7 @@ jobs:
       - name: Compute changed sections
         id: changes
         run: |
-          echo "gaming=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/gaming/')" >> $GITHUB_OUTPUT
+          echo "::set-output name=music::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/gaming/' | awk '{print $2}' | head -n1)" 
           echo "::set-output name=music::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/music/' | awk '{print $2}' | head -n1)" 
           echo "::set-output name=misc::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/miscellaneous/' | awk '{print $2}' | head -n1)" 
           echo "::set-output name=sweet::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/sweet_synopsis/' | awk '{print $2}' | head -n1)"
@@ -38,7 +38,7 @@ jobs:
         run: |
           NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/gaming/' | awk '{print $2}' | head -n1)
           TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
-          URL="https://your-site.com/${NEW%.md}/"
+          URL="https://leespeak.me/${NEW%.md}/"
           node scripts/send-section-campaign.js "Gaming" "${{ env.GAMING_OPTION_ID }}" "$TITLE" "$URL"
         env:
           MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
@@ -51,7 +51,7 @@ jobs:
         run: |
           NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/music/')
           TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
-          URL="https://your-site.com/${NEW%.md}/"
+          URL="https://leespeak.me/${NEW%.md}/"
           node scripts/send-section-campaign.js "Music" "${{ env.MUSIC_OPTION_ID }}" "$TITLE" "$URL"
         env:
           MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
@@ -64,7 +64,7 @@ jobs:
         run: |
           NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/miscellaneous/')
           TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
-          URL="https://your-site.com/${NEW%.md}/"
+          URL="https://leespeak.me/${NEW%.md}/"
           node scripts/send-section-campaign.js "Miscellaneous" "${{ env.MISC_OPTION_ID }}" "$TITLE" "$URL"
         env:
           MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
@@ -77,7 +77,7 @@ jobs:
         run: |
           NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/sweet_synopsis/')
           TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
-          URL="https://your-site.com/${NEW%.md}/"
+          URL="https://leespeak.me/${NEW%.md}/"
           node scripts/send-section-campaign.js "Sweet Synopsis" "${{ env.SWEET_OPTION_ID }}" "$TITLE" "$URL"
         env:
           MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
