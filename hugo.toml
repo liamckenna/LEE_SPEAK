@@ -4,7 +4,6 @@ theme = "hugo-simple"
 languageCode = "en"                # zh-Hans
 title = "LEE_SPEAK"
 copyright = "© 2025 Liam McKenna"
-publishDir = "docs"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
