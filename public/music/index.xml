@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LEE_SPEAK</title>
-    <link>https://leespeak.me/music/</link>
+    <link>http://localhost:1313/music/</link>
     <description>Recent content on LEE_SPEAK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,14 +10,14 @@
     <webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster>
     <copyright>© 2025 Liam McKenna</copyright>
     <lastBuildDate>Thu, 13 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://leespeak.me/music/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/music/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Some Scattered Thoughts on My Favorite Piece of Art</title>
-      <link>https://leespeak.me/music/idmthy_review/</link>
+      <link>http://localhost:1313/music/idmthy_review/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>https://leespeak.me/music/idmthy_review/</guid>
+      <guid>http://localhost:1313/music/idmthy_review/</guid>
       <description>&lt;img
-  src=&#34;https://leespeak.me/images/music/idmthy_cover.jpg&#34;
+  src=&#34;http://localhost:1313/images/music/idmthy_cover.jpg&#34;
   style=&#34;
     display: inline-block;
     vertical-align: top;

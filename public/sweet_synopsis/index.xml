@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LEE_SPEAK</title>
-    <link>https://leespeak.me/sweet_synopsis/</link>
+    <link>http://localhost:1313/sweet_synopsis/</link>
     <description>Recent content on LEE_SPEAK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster>
     <copyright>© 2025 Liam McKenna</copyright>
     <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://leespeak.me/sweet_synopsis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sweet_synopsis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SweetTARTS Gummies Fruity Splitz</title>
-      <link>https://leespeak.me/sweet_synopsis/fruity_splitz/</link>
+      <link>http://localhost:1313/sweet_synopsis/fruity_splitz/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>https://leespeak.me/sweet_synopsis/fruity_splitz/</guid>
+      <guid>http://localhost:1313/sweet_synopsis/fruity_splitz/</guid>
       <description>&lt;p&gt;I&amp;rsquo;d like to clear up some things before continuing:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -296,11 +296,11 @@ so they earn considerable points here.</p>
     </item>
     <item>
       <title>NOBEL Super Mario Gummy</title>
-      <link>https://leespeak.me/sweet_synopsis/mario_gummies/</link>
+      <link>http://localhost:1313/sweet_synopsis/mario_gummies/</link>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>https://leespeak.me/sweet_synopsis/mario_gummies/</guid>
+      <guid>http://localhost:1313/sweet_synopsis/mario_gummies/</guid>
       <description>&lt;img
-  src=&#34;https://leespeak.me/images/sweet_synopsis/mario_gummies/1.jpg&#34;
+  src=&#34;http://localhost:1313/images/sweet_synopsis/mario_gummies/1.jpg&#34;
   style=&#34;
     display: inline-block;
     vertical-align: top;
