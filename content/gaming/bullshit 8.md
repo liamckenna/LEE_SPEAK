@@ -1,6 +1,6 @@
 ---
 author: Liam McKenna
-title: bullshit 7
+title: bullshit 8
 date: 2025-06-14
 description: Quadeca's "I Didn't Mean to Haunt You"
 comments_disabled: false
