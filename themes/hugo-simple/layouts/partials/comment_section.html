@@ -1,7 +1,9 @@
 {{ $section := .Section }}
 {{ $slug := .File.BaseFileName }}
 {{ $comments := index site.Data.comments $section $slug }}
-
+{{ with .Site.GetPage "trigger/comment-version.md" }}
+  <!-- Comment version: {{ .Params.comment_version }} -->
+{{ end }}
 {{ if not .Params.comments_disabled }}
   {{ if $comments }}
     <section class="comments-thread">
