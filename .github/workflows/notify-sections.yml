@@ -57,7 +57,7 @@ jobs:
           GROUP_CATEGORY_ID: ${{ secrets.GROUP_CATEGORY_ID }}
           MUSIC_OPTION_ID: ${{ secrets.MUSIC_OPTION_ID }}
 
-      - name: Notify Misc
+      - name: Notify Miscellaneous
         if: steps.changes.outputs.misc != '0'
         run: |
           NEW=$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep '^content/miscellaneous/' | head -n1)
