@@ -25,6 +25,7 @@ jobs:
         id: changes
         run: |
           echo "gaming=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/gaming/')" >> $GITHUB_OUTPUT
+          echo "gaming=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/gaming/')"
           echo "music=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/music/')" >> $GITHUB_OUTPUT
           echo "misc=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/miscellaneous/')" >> $GITHUB_OUTPUT
           echo "sweet=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/sweet_synopsis/')" >> $GITHUB_OUTPUT
