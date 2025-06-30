@@ -37,7 +37,7 @@ jobs:
       - name: Notify Gaming
         if: steps.changes.outputs.gaming != '0'
         run: |
-          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/gaming/' | awk '{print $2}' | head -n1)
+          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/gaming/' | cut -f2-)
           TITLE=$(grep '^title:' "$NEW" | sed 's/title:[ \t]*//')
           URL="https://leespeak.me/${NEW%.md}/"
           node scripts/send-section-campaign.js "Gaming" "${{ env.GAMING_OPTION_ID }}" "$TITLE" "$URL"
