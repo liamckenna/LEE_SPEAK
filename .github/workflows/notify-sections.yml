@@ -22,10 +22,10 @@ jobs:
       - name: Compute changed sections
         id: changes
         run: |
-          echo "::set-output name=gaming::$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep -c '^content/gaming/')" 
-          echo "::set-output name=music::$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep -c '^content/music/')" 
-          echo "::set-output name=misc::$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep -c '^content/miscellaneous/')" 
-          echo "::set-output name=sweet::$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep -c '^content/sweet_synopsis/')"
+          echo "::set-output name=gaming::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/gaming/')" 
+          echo "::set-output name=music::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/music/')" 
+          echo "::set-output name=misc::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/miscellaneous/')" 
+          echo "::set-output name=sweet::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/sweet_synopsis/')"
 
       - name: Install deps
         run: npm install node-fetch
@@ -34,7 +34,7 @@ jobs:
       - name: Notify Gaming
         if: steps.changes.outputs.gaming != '0'
         run: |
-          NEW=$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep '^content/gaming/' | head -n1)
+          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/gaming/')
           TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
           URL="https://your-site.com/${NEW%.md}/"
           node scripts/send-section-campaign.js "Gaming" "${{ env.GAMING_OPTION_ID }}" "$TITLE" "$URL"
@@ -47,7 +47,7 @@ jobs:
       - name: Notify Music
         if: steps.changes.outputs.music != '0'
         run: |
-          NEW=$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep '^content/music/' | head -n1)
+          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/music/')
           TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
           URL="https://your-site.com/${NEW%.md}/"
           node scripts/send-section-campaign.js "Music" "${{ env.MUSIC_OPTION_ID }}" "$TITLE" "$URL"
@@ -60,7 +60,7 @@ jobs:
       - name: Notify Miscellaneous
         if: steps.changes.outputs.misc != '0'
         run: |
-          NEW=$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep '^content/miscellaneous/' | head -n1)
+          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/miscellaneous/')
           TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
           URL="https://your-site.com/${NEW%.md}/"
           node scripts/send-section-campaign.js "Miscellaneous" "${{ env.MISC_OPTION_ID }}" "$TITLE" "$URL"
@@ -73,7 +73,7 @@ jobs:
       - name: Notify Sweet Synopsis
         if: steps.changes.outputs.sweet != '0'
         run: |
-          NEW=$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep '^content/sweet_synopsis/' | head -n1)
+          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/sweet_synopsis/')
           TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
           URL="https://your-site.com/${NEW%.md}/"
           node scripts/send-section-campaign.js "Sweet Synopsis" "${{ env.SWEET_OPTION_ID }}" "$TITLE" "$URL"
