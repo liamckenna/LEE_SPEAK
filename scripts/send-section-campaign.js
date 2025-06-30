@@ -33,8 +33,8 @@ async function run() {
           conditions: [
             {
               condition_type: "Interests",
-              field: `interests-${GROUP_CAT}`,
-              op: "all",
+              field: "interests",
+              op: "interestcontains",
               value: OPTION_ID
             }
           ]
