@@ -1,36 +1,29 @@
-name: github pages
+name: Deploy Hugo to GitHub Pages
 
 on:
   push:
     branches:
-      - master  # Set a branch that will trigger a deployment
-  pull_request:
+      - master  # or 'main' — match your actual branch
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          # fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true
 
-      - name: Setup Nix
-        uses: cachix/install-nix-action@v31
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          github_access_token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: DeterminateSystems/magic-nix-cache-action@v9
-
-      - name: Check code format
-        shell: bash
-        run: nix develop --command just check
+          hugo-version: '0.125.4'  # use your actual Hugo version
 
       - name: Build
-        run: nix develop --command just build
+        run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
