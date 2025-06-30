@@ -5,7 +5,6 @@ on:
       - 'content/gaming/**.md'
       - 'content/music/**.md'
       - 'content/miscellaneous/**.md'
-      - 'content/pokeleef/**.md'
       - 'content/sweet_synopsis/**.md'
 
 jobs:
@@ -26,7 +25,6 @@ jobs:
           echo "::set-output name=gaming::$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep -c '^content/gaming/')" 
           echo "::set-output name=music::$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep -c '^content/music/')" 
           echo "::set-output name=misc::$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep -c '^content/miscellaneous/')" 
-          echo "::set-output name=poke::.content/pokeleef/')" 
           echo "::set-output name=sweet::$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep -c '^content/sweet_synopsis/')"
 
       - name: Install deps
@@ -46,5 +44,41 @@ jobs:
           GROUP_CATEGORY_ID: ${{ secrets.GROUP_CATEGORY_ID }}
           GAMING_OPTION_ID: ${{ secrets.GAMING_OPTION_ID }}
 
-      # Repeat a step-block for Music, Misc, PokéLeef, Sweet Synopsis
-      # changing section name and option ID each time...
+      - name: Notify Music
+        if: steps.changes.outputs.music != '0'
+        run: |
+          NEW=$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep '^content/music/' | head -n1)
+          TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
+          URL="https://your-site.com/${NEW%.md}/"
+          node scripts/send-section-campaign.js "Music" "${{ env.MUSIC_OPTION_ID }}" "$TITLE" "$URL"
+        env:
+          MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
+          MAILCHIMP_LIST_ID: ${{ secrets.MAILCHIMP_LIST_ID }}
+          GROUP_CATEGORY_ID: ${{ secrets.GROUP_CATEGORY_ID }}
+          MUSIC_OPTION_ID: ${{ secrets.MUSIC_OPTION_ID }}
+
+      - name: Notify Misc
+        if: steps.changes.outputs.misc != '0'
+        run: |
+          NEW=$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep '^content/miscellaneous/' | head -n1)
+          TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
+          URL="https://your-site.com/${NEW%.md}/"
+          node scripts/send-section-campaign.js "Miscellaneous" "${{ env.MISC_OPTION_ID }}" "$TITLE" "$URL"
+        env:
+          MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
+          MAILCHIMP_LIST_ID: ${{ secrets.MAILCHIMP_LIST_ID }}
+          GROUP_CATEGORY_ID: ${{ secrets.GROUP_CATEGORY_ID }}
+          MISCELLANEOUS_OPTION_ID: ${{ secrets.MISCELLANEOUS_OPTION_ID }}
+
+      - name: Notify Sweet Synopsis
+        if: steps.changes.outputs.sweet != '0'
+        run: |
+          NEW=$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep '^content/sweet_synopsis/' | head -n1)
+          TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
+          URL="https://your-site.com/${NEW%.md}/"
+          node scripts/send-section-campaign.js "Sweet Synopsis" "${{ env.SWEET_OPTION_ID }}" "$TITLE" "$URL"
+        env:
+          MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
+          MAILCHIMP_LIST_ID: ${{ secrets.MAILCHIMP_LIST_ID }}
+          GROUP_CATEGORY_ID: ${{ secrets.GROUP_CATEGORY_ID }}
+          SWEET_SYNOPSIS_OPTION_ID: ${{ secrets.SWEET_SYNOPSIS_OPTION_ID }}
