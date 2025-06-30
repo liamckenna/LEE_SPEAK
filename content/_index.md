@@ -6,7 +6,7 @@ home_page: true
 
 ## Welcome!
 
-I'm Liam, a grad student studying Computer Graphics.
+I'm Liam, a grad student studying the technical side of game development.
 
 At the top you'll find links to the subsections of my 
 blog. Gaming, Music, and Miscellaneous are all topics where you're free to browse my unwanted opinions, 
