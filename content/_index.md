@@ -8,8 +8,8 @@ home_page: true
 
 I'm Liam, a grad student studying Computer Graphics.
 
-At the top you'll find links to all the subsections of my 
-blog. Gaming, Music, and Miscellaneous are all blog topics where you're free to browse my unwanted opinions, 
+At the top you'll find links to the subsections of my 
+blog. Gaming, Music, and Miscellaneous are all topics where you're free to browse my unwanted opinions, 
 with Sweet Synopsis being a side project I felt right to have hosted here.
 
 LEE_SPEAK was created for a handful of reasons, chiefly that I needed some sort of outlet, but also because
