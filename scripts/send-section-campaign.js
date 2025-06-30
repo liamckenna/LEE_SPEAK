@@ -48,12 +48,15 @@ async function run() {
       }
     })
   });
-  const { id: campaign_id } = await createRes.json();
+const campaignData = await createRes.json();
 
-  if (!campaign_id) {
-    console.error("Failed to create campaign", await createRes.text());
-    process.exit(1);
-  }
+if (!campaignData.id) {
+  console.error("Failed to create campaign", campaignData);
+  process.exit(1);
+}
+
+const campaign_id = campaignData.id;
+
 
   // 2) Set the campaign content
   const htmlContent = `
