@@ -24,10 +24,10 @@ jobs:
       - name: Compute changed sections
         id: changes
         run: |
-          echo "::set-output name=gaming::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/gaming/')" 
-          echo "::set-output name=music::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/music/')" 
-          echo "::set-output name=misc::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/miscellaneous/')" 
-          echo "::set-output name=sweet::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/sweet_synopsis/')"
+          echo "gaming=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/gaming/')" >> $GITHUB_OUTPUT
+          echo "::set-output name=music::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/music/' | awk '{print $2}' | head -n1)" 
+          echo "::set-output name=misc::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/miscellaneous/' | awk '{print $2}' | head -n1)" 
+          echo "::set-output name=sweet::$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/sweet_synopsis/' | awk '{print $2}' | head -n1)"
 
       - name: Install deps
         run: npm install node-fetch
@@ -36,7 +36,7 @@ jobs:
       - name: Notify Gaming
         if: steps.changes.outputs.gaming != '0'
         run: |
-          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/gaming/')
+          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/gaming/' | awk '{print $2}' | head -n1)
           TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
           URL="https://your-site.com/${NEW%.md}/"
           node scripts/send-section-campaign.js "Gaming" "${{ env.GAMING_OPTION_ID }}" "$TITLE" "$URL"
