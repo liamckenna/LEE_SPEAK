@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LEE_SPEAK</title>
-    <link>http://localhost:1313/gaming/</link>
+    <link>https://leespeak.me/gaming/</link>
     <description>Recent content on LEE_SPEAK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster>
     <copyright>© 2025 Liam McKenna</copyright>
     <lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://leespeak.me/gaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Mojang Theory</title>
-      <link>http://localhost:1313/gaming/mojang/</link>
+      <link>https://leespeak.me/gaming/mojang/</link>
       <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>http://localhost:1313/gaming/mojang/</guid>
+      <guid>https://leespeak.me/gaming/mojang/</guid>
       <description>&lt;p&gt;Like many of those who grew up on Minecraft, I&amp;rsquo;ve often struggled to understand its developer&amp;rsquo;s philosophy
 when it comes to game updates. Like, I get it, they don&amp;rsquo;t want to change the game too much and risk undermining
 the core identity of the game, but there&amp;rsquo;s so much that notion alone doesn&amp;rsquo;t account for.&lt;/p&gt;
