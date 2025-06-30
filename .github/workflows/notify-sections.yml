@@ -26,8 +26,7 @@ jobs:
         id: changes
         run: |
           echo "gaming=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/gaming/')" >> $GITHUB_OUTPUT
-          echo "gaming=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/gaming/')"
-          echo "music=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/music/')" >> $GITHUB_OUTPUT
+          echo "gaming=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/music/')" >> $GITHUB_OUTPUT
           echo "misc=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/miscellaneous/')" >> $GITHUB_OUTPUT
           echo "sweet=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/sweet_synopsis/')" >> $GITHUB_OUTPUT
 
@@ -48,11 +47,13 @@ jobs:
           GROUP_CATEGORY_ID: ${{ secrets.GROUP_CATEGORY_ID }}
           GAMING_OPTION_ID: ${{ secrets.GAMING_OPTION_ID }}
 
+          
+      # For each section, if there's a new file, call the script
       - name: Notify Music
-        if: steps.changes.outputs.music != '0'
+        if: steps.changes.outputs.gaming != '0'
         run: |
-          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/music/')
-          TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
+          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/music/' | cut -f2-)
+          TITLE=$(grep '^title:' "$NEW" | sed 's/title:[ \t]*//')
           URL="https://leespeak.me/${NEW%.md}/"
           node scripts/send-section-campaign.js "Music" "${{ env.MUSIC_OPTION_ID }}" "$TITLE" "$URL"
         env:
@@ -61,26 +62,28 @@ jobs:
           GROUP_CATEGORY_ID: ${{ secrets.GROUP_CATEGORY_ID }}
           MUSIC_OPTION_ID: ${{ secrets.MUSIC_OPTION_ID }}
 
+                # For each section, if there's a new file, call the script
       - name: Notify Miscellaneous
-        if: steps.changes.outputs.misc != '0'
+        if: steps.changes.outputs.gaming != '0'
         run: |
-          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/miscellaneous/')
-          TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
+          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/miscellaneous/' | cut -f2-)
+          TITLE=$(grep '^title:' "$NEW" | sed 's/title:[ \t]*//')
           URL="https://leespeak.me/${NEW%.md}/"
-          node scripts/send-section-campaign.js "Miscellaneous" "${{ env.MISC_OPTION_ID }}" "$TITLE" "$URL"
+          node scripts/send-section-campaign.js "Miscellaneous" "${{ env.MISCELLANEOUS_OPTION_ID }}" "$TITLE" "$URL"
         env:
           MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
           MAILCHIMP_LIST_ID: ${{ secrets.MAILCHIMP_LIST_ID }}
           GROUP_CATEGORY_ID: ${{ secrets.GROUP_CATEGORY_ID }}
           MISCELLANEOUS_OPTION_ID: ${{ secrets.MISCELLANEOUS_OPTION_ID }}
 
+                          # For each section, if there's a new file, call the script
       - name: Notify Sweet Synopsis
-        if: steps.changes.outputs.sweet != '0'
+        if: steps.changes.outputs.gaming != '0'
         run: |
-          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep -c '^A[[:space:]]*content/sweet_synopsis/')
-          TITLE=$(grep '^title:' $NEW | sed 's/title:[ \t]*//')
+          NEW=$(git diff --name-status ${{ github.sha }}~1 ${{ github.sha }} | grep '^A' | grep '^A[[:space:]]*content/sweet_synopsis/' | cut -f2-)
+          TITLE=$(grep '^title:' "$NEW" | sed 's/title:[ \t]*//')
           URL="https://leespeak.me/${NEW%.md}/"
-          node scripts/send-section-campaign.js "Sweet Synopsis" "${{ env.SWEET_OPTION_ID }}" "$TITLE" "$URL"
+          node scripts/send-section-campaign.js "Sweet Synopsis" "${{ env.SWEET_SYNOPSIS_OPTION_ID }}" "$TITLE" "$URL"
         env:
           MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
           MAILCHIMP_LIST_ID: ${{ secrets.MAILCHIMP_LIST_ID }}
