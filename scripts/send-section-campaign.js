@@ -35,8 +35,8 @@ async function run() {
       settings: {
         subject_line: `New on ${SECTION}: ${POST_TITLE}`,
         title:        `${SECTION}-${Date.now()}`,
-        from_name:    "Your Name",
-        reply_to:     "you@yourdomain.com"
+        from_name:    "LEE_SPEAK",
+        reply_to:     "lee@liamdouglas.com"
       }
     })
   });
