@@ -28,16 +28,8 @@ async function run() {
       type: "regular",
       recipients: {
         list_id: LIST_ID,
-        segment_opts: {
-          match: "all",
-          conditions: [
-            {
-              condition_type: "Interests",
-              field: "interests",
-              op: "interestcontains",
-              value: OPTION_ID
-            }
-          ]
+        interests: {
+          [OPTION_ID]: true
         }
       },
       settings: {
