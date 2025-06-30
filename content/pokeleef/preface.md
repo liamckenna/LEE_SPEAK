@@ -9,6 +9,7 @@ weight: 1000
 # 3rd & 4th digits: chapter
 oldest: true
 next: /pokeleef/volume-i/chapter-1/
+draft: true
 ---
 
 

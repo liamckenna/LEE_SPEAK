@@ -21,7 +21,12 @@ mechanic. For the *lore*."
 I can't honestly tell how much mojang cares about maintaining the game's identity. If that's what they're going for,
 they're not doing a very good job.
 
+
 Regardless, the game has bugs that haven't been addressed for over a decade (see [item stitching](https://bugs-legacy.mojang.com/browse/MC-1794?attachmentSortBy=fileName&utm_source=chatgpt.com), for example). 
+
+{{< image src="/images/gaming/item_stitching.png" scale="1.0" >}}
+
+
 Thankfully there are an endless number of mods that can account for mojang's inaction. And this is where it hit me
  -- does Mojang not see bugs as issues so long as someone in the community fixes it for them? Even further, does this
  extend to actual game features? I mean, surely overhauls like sodium and optifine takes the onus off them to optimize

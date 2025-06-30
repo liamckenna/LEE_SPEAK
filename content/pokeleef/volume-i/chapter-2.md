@@ -6,6 +6,7 @@ weight: 1102
 prev: /pokeleef/volume-i/chapter-1/
 next: /pokeleef/volume-i/chapter-3/
 date: 2025-05-08
+draft: true
 ---
 
 

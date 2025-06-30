@@ -1,5 +1,5 @@
 # Basic config
-baseURL = "https://leespeak.me"
+baseURL = "https://leespeak.me/"
 theme = "hugo-simple"
 languageCode = "en"                # zh-Hans
 title = "LEE_SPEAK"
@@ -61,13 +61,9 @@ name = "Miscellaneous"
 pageRef = "/miscellaneous"
 weight = 40
 [[menu.main]]
-name = "PokéLeef"
-pageRef = "/pokeleef/"
-weight = 50
-[[menu.main]]
 name = "Sweet Synopsis"
 pageRef = "/sweet_synopsis"
-weight = 60
+weight = 50
 
 
 
