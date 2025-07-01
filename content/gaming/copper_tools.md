@@ -12,7 +12,7 @@ home_pin: true
 Today I opened my YouTube to find a new minecraft update announcement at the top of my recommended.
 Ironically, I had another topic I planned on writing about today that was also Minecraft-related, but that will have to wait.
 
-In their [latest update video](https://www.youtube.com/watch?v=542rY0DQHIM), Mojang has given copper a handful of new purposes.
+In their [latest update video](https://www.youtube.com/watch?v=542rY0DQHIM), Mojang has given copper a handful of new use cases.
 For the purposes of this discussion, the one standout announcement is that of **copper tools and armor**. 
 
 There's an obvious discussion to be had here. Where exactly do I start, though? Minecraft's traditional progression system: 
@@ -29,7 +29,7 @@ got *extended* with the introduction of
 Wood -> Stone -> Iron -> Diamond **-> Netherite** 
 
 five years and one week ago, and has largely been seen as a successful endeavor. This came in spite of immediate discourse of eroding
-tradition and arguing sacrilege for making an ore **more powerful than diamond**, because, well, it's diamond! You can't do that!
+tradition and arguing sacrilege for making an ore more powerful than diamond, because, well, **it's diamond!** You can't do that!
 
 I'm aware of how those takes aged. I'm not explicitly rejecting copper's new role, I'm more questioning it's potential impact, because 
 denouncing change for fear of cultural or traditional impact isn't exactly productive. At the time, I think it was right to point out the lack
@@ -43,7 +43,7 @@ Wood -> Stone **-> Copper ->** Iron -> Diamond -> Netherite
 
 Honestly, probably not much, but it may depend on the level of player you are. I'd wager seasoned players get to iron well within the first hour of starting a world,
 so was there really a gap to address? There may be, and time will tell, but I doubt many people were pining Mojang to close the gap between stone and iron. The issue
-is moreso that copper is useless, which isn't a strong case for effectively diluting the very solid pace of progression Minecraft's ore system has demonstrated up until now.
+is more so that copper is useless, which isn't a strong case for effectively diluting the very solid pace of progression Minecraft's ore system has demonstrably proven.
 
 In a way, it feels like they're backtracking. For all intents and purposes, if Mojang had strong conviction that copper's purpose was, at least partially, that of an ore for progression,
 they wouldn't have waited four years to give them such a role. Rewatching the [Caves & Cliffs First Look](https://www.youtube.com/watch?v=DBvZ2Iqmm3M), Vanilla Minecraft Game Director
