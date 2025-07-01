@@ -4,7 +4,7 @@ title: NOBEL Super Mario Gummy
 date: 2025-05-08
 description: Episode I (Pilot)
 comments_disabled: false
-home_pin: true
+home_pin: false
 ---
 
 {{< image src="/images/sweet_synopsis/mario_gummies/1.jpg" scale="1.0" >}}
