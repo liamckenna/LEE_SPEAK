@@ -4,7 +4,7 @@ title: The Mojang Theory
 date: 2025-05-06
 description: A rationalization of Minecraft's disappointing update history
 comments_disabled: false
-home_pin: true
+home_pin: false
 ---
 
 Like many of those who grew up on Minecraft, I've often struggled to understand its developer's philosophy
