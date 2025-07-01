@@ -7,13 +7,13 @@ comments_disabled: false
 home_pin: true
 ---
 
+{{< image src="/images/gaming/copper_tools.jpeg" scale="1.0" >}}
+
 Today I opened my YouTube to find a new minecraft update announcement at the top of my recommended.
 Ironically, I had another topic I planned on writing about today that was also Minecraft-related, but that will have to wait.
 
 In their [latest update video](https://www.youtube.com/watch?v=542rY0DQHIM), Mojang has given copper a handful of new purposes.
 For the purposes of this discussion, the one standout announcement is that of **copper tools and armor**. 
-
-{{< image src="/images/gaming/copper_tools.jpeg" scale="1.0" >}}
 
 There's an obvious discussion to be had here. Where exactly do I start, though? Minecraft's traditional progression system: 
 
