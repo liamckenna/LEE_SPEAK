@@ -8,10 +8,6 @@ home_page: true
 
 I'm Liam, a grad student studying the technical side of game development.
 
-At the top you'll find links to the subsections of my 
-blog. Gaming, Music, and Miscellaneous are all topics where you're free to browse my unwanted opinions, 
-with Sweet Synopsis being a side project I felt right to have hosted here.
-
-LEE_SPEAK was created for a handful of reasons, chiefly that I needed some sort of outlet, but also because
-sometimes I have a take that I don't hear coming from anywhere else. Posts here will always be some flavor of
-both original and insightful (and sometimes personal).
+<b>LEE_SPEAK</b> was created for a handful of reasons but chiefly as a personal outlet. Of course, anyone willing to share 
+their opinions on the internet must believe to some extent their thoughts are indeed worth sharing, so posts here will always 
+aim to be some flavor of original, insightful, entertaining, and/or personal.
