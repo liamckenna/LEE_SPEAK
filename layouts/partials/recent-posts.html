@@ -15,7 +15,8 @@
       </small>
       <a href="{{ .RelPermalink }}" style="display:inline-flex; align-items:center">
         {{ if .Params.home_pin }}
-        🖈
+          <span class="pin-icon pin-desktop">🖈</span>
+          <span class="pin-icon pin-mobile">📌</span>
         {{ end }}
         {{ .Title }}
       </a>

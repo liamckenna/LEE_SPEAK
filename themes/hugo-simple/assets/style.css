@@ -143,3 +143,25 @@ a:hover {
 .recent-posts .post-meta .date {
   margin-right: 1rem;
 }
+
+.pin-icon {
+  display: inline-block;
+  margin-right: 0.4em;
+}
+
+.pin-desktop {
+  display: inline;
+}
+
+.pin-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .pin-desktop {
+    display: none;
+  }
+  .pin-mobile {
+    display: inline;
+  }
+}
