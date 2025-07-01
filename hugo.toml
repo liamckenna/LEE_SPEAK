@@ -32,8 +32,7 @@ noClasses = true
 style = "catppuccin-mocha"
 
 [params]
-title = "Hugo Simple"
-description = "Hugo Simple Demo"
+description = "A blog about gaming, art, candy, and internet culture."
 favicon = "images/favicon.png"
 dateFormat = "Jan. 2, 2006"
 hideMadeWithLine = true
