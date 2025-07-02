@@ -2,5 +2,5 @@
 title: "Comment Trigger"
 date: 2000-01-01
 draft: true
-comment_version: 27
+comment_version: 28
 ---
