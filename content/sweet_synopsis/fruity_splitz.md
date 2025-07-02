@@ -40,7 +40,7 @@ Cudos for that, Sweet Tarts.
 {{< image src="/images/sweet_synopsis/fruity_splitz/7.jpg" scale="1">}}
 
 30 pieces, 270 calories, 42g of sugar. 1.5g of sugar per gummy, which is... fine I guess. You're not 
-gonna see anything compare to the low sugar density of [foreign candy](https://lee_speak.me/sweet_synopsis/mario_gummies/).
+gonna see anything compare to the low sugar density of [foreign candy](https://leespeak.me/sweet_synopsis/mario_gummies/).
 
 {{< image src="/images/sweet_synopsis/fruity_splitz/8.jpg" scale="1">}}
 
