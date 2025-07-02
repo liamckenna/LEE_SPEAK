@@ -2,7 +2,7 @@
 author: Liam McKenna
 title: SweetTARTS Gummies Fruity Splitz
 date: 2025-05-09
-description: Episode II (Pilot)
+description: Episode II
 comments_disabled: false
 category_pin: false
 ---
