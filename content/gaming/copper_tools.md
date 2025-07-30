@@ -4,7 +4,7 @@ title: Will Copper Disrupt the Progression of Minecraft?
 date: 2025-07-01
 description: Mojang is playing with fire here.
 comments_disabled: false
-home_pin: true
+home_pin: false
 ---
 
 {{< image src="/images/gaming/copper_tools.jpeg" scale="1.0" >}}

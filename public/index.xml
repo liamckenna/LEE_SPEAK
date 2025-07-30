@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LEE_SPEAK</title>
-    <link>https://leespeak.me/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on LEE_SPEAK</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>lee@liamdouglas.com (Liam McKenna)</managingEditor>
     <webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster>
     <copyright>© 2025 Liam McKenna</copyright>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://leespeak.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I Killed His Squirtle</title>
-      <link>https://leespeak.me/pokeleef/volume-i/chapter-2/</link>
+      <link>http://localhost:1313/pokeleef/volume-i/chapter-2/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>https://leespeak.me/pokeleef/volume-i/chapter-2/</guid>
+      <guid>http://localhost:1313/pokeleef/volume-i/chapter-2/</guid>
       <description>&lt;h4 id=&#34;i-hate-being-pitied&#34;&gt;I hate being pitied.&lt;/h4&gt;
 &lt;p&gt;The woman at the front desk saw me crying and offered to heal my pokémon entirely for free. As much as I hate taking handouts, she was saving me like ₽600, which is at least a whole pokeball.&lt;/p&gt;
 &lt;span style=&#34;
@@ -31,7 +31,7 @@
   image-rendering: pixelated;
 &#34;&gt;
   &lt;img
-    src=&#34;https://leespeak.me/images/pokeleef/volume-i/chapter-2/1.1.png&#34;
+    src=&#34;http://localhost:1313/images/pokeleef/volume-i/chapter-2/1.1.png&#34;
     width=&#34;695&#34;
     height=&#34;463&#34;
     style=&#34;
@@ -760,12 +760,33 @@ on your turtle I would&rsquo;ve been unstoppable.</p>
 ]]></content:encoded>
     </item>
     <item>
+      <title>Every Year We Go to Michigan</title>
+      <link>http://localhost:1313/miscellaneous/every_year/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
+      <guid>http://localhost:1313/miscellaneous/every_year/</guid>
+      <description>&lt;p&gt;Every year we go to Michigan. We&amp;rsquo;re either celebrating the 4th, a handful of birthdays, or both. It&amp;rsquo;s always in July so it serves as a good checkpoint in my recent years.&lt;/p&gt;
+&lt;p&gt;In July of 2023, I was at the lowest point of my entire life. Graduation was looming with my post-education future in complete fog. I was in the dead middle of an
+internship doing work I despised, hundred of miles away from home. Internally, I was paralyzed. Stuck in place by magnetic forces of suicidal trepidation and ideation, I feared death, but I feared the future just as much. My aunt and uncle invited me to spend the 4th with them and offered to take my cousins and me to the beach. If I recall, I was hesitant, allowing that paralysis to speak on my behalf. They were my only family in a country mile though, so as strong as those forces were, I knew better than to avoid family.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Every year we go to Michigan. We&rsquo;re either celebrating the 4th, a handful of birthdays, or both. It&rsquo;s always in July so it serves as a good checkpoint in my recent years.</p>
+<p>In July of 2023, I was at the lowest point of my entire life. Graduation was looming with my post-education future in complete fog. I was in the dead middle of an
+internship doing work I despised, hundred of miles away from home. Internally, I was paralyzed. Stuck in place by magnetic forces of suicidal trepidation and ideation, I feared death, but I feared the future just as much. My aunt and uncle invited me to spend the 4th with them and offered to take my cousins and me to the beach. If I recall, I was hesitant, allowing that paralysis to speak on my behalf. They were my only family in a country mile though, so as strong as those forces were, I knew better than to avoid family.</p>
+<p>It was a fun weekend. I probably needed it more than I let on, though my Uncle saw through any mask I tried to wear. We talked for a long time, and while I don&rsquo;t remember everything that was said, one bit stuck with me. I can&rsquo;t give an exact quote, but it went something along the lines of the following:</p>
+<blockquote>
+<p>Life-long happiness isn&rsquo;t attainable. I&rsquo;ve found happiness in fleeting moments, but in my day to day, I&rsquo;m not happy. I&rsquo;m content with my life, but I&rsquo;m not happy, and I don&rsquo;t expect to be.</p></blockquote>
+<p>I think in the moment, I didn&rsquo;t want to believe him. Even still, there&rsquo;s a part of me that just refuses to let such a hope die. But if I had to guess, he&rsquo;s probably right. In that case, I hope to find content with my life. I don&rsquo;t want to keep moving the goalpost down the field, expecting the next milestone in my life to finally be the one to do it. I want to learn to be content with my life right now, in my last moments, and at every point in-between.</p>
+<p>Moving forward a year to July of 2024, I was in a radically different position in life. Now knowing concretely the next two years of my life to be spent in graduate school, all the while surrounded by the close friends I&rsquo;d made, my gaze was towards the sky. This time the whole extended family was here, and with nothing weighing me down, I could appreciate that time with my family to the fullest.</p>
+<p>Even still, turning 22, I was once again afraid of losing what I had in that current moment. I&rsquo;d always expected life to flow in waves, and at least in my adulthood, it has. Good times are always eventually succeeded by darker ones, and back it goes to the median. The amplitudes, periods, and frequencies of such waves vary greatly, but what comes up always comes down&mdash;and come down things certainly did.</p>
+<p>This year I find myself turning 23. In many regards, I feel right in between the extremes of the last two years, but my year thus far has largely mimicked the former. Life took its turn as quick as Winter turned to Spring, and I&rsquo;ve been desparately fighting for balance the whole year. I trust that things are trending upwards.</p>
+<p>By the start of the Fall semester, I will have new horizons to look towards. I&rsquo;m leaving for Japan in September, so I want to spend as much time as possible with my friends and family in the coming weeks. After my arrival, I only have five more months until I close this chapter of my life. I want to be prepared for whatever awaits me, but I don&rsquo;t think I even know what exactly that means. No doubt, I will find out in due time.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Will Copper Disrupt the Progression of Minecraft?</title>
-      <link>https://leespeak.me/gaming/copper_tools/</link>
+      <link>http://localhost:1313/gaming/copper_tools/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>https://leespeak.me/gaming/copper_tools/</guid>
+      <guid>http://localhost:1313/gaming/copper_tools/</guid>
       <description>&lt;img
-  src=&#34;https://leespeak.me/images/gaming/copper_tools.jpeg&#34;
+  src=&#34;http://localhost:1313/images/gaming/copper_tools.jpeg&#34;
   style=&#34;
     display: inline-block;
     vertical-align: top;
@@ -897,9 +918,9 @@ miscalculation.</p>
     </item>
     <item>
       <title>SweetTARTS Gummies Fruity Splitz</title>
-      <link>https://leespeak.me/sweet_synopsis/fruity_splitz/</link>
+      <link>http://localhost:1313/sweet_synopsis/fruity_splitz/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>https://leespeak.me/sweet_synopsis/fruity_splitz/</guid>
+      <guid>http://localhost:1313/sweet_synopsis/fruity_splitz/</guid>
       <description>&lt;p&gt;I&amp;rsquo;d like to clear up some things before continuing:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -996,7 +1017,7 @@ checkout counter is dominated by candy bars and gum, but I think there&rsquo;s a
 />
 
 <p>30 pieces, 270 calories, 42g of sugar. 1.5g of sugar per gummy, which is&hellip; fine I guess. You&rsquo;re not
-gonna see anything compare to the low sugar density of <a href="https://lee_speak.me/sweet_synopsis/mario_gummies/">foreign candy</a>.</p>
+gonna see anything compare to the low sugar density of <a href="https://leespeak.me/sweet_synopsis/mario_gummies/">foreign candy</a>.</p>
 
 
 
@@ -1180,11 +1201,11 @@ so they earn considerable points here.</p>
     </item>
     <item>
       <title>NOBEL Super Mario Gummy</title>
-      <link>https://leespeak.me/sweet_synopsis/mario_gummies/</link>
+      <link>http://localhost:1313/sweet_synopsis/mario_gummies/</link>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>https://leespeak.me/sweet_synopsis/mario_gummies/</guid>
+      <guid>http://localhost:1313/sweet_synopsis/mario_gummies/</guid>
       <description>&lt;img
-  src=&#34;https://leespeak.me/images/sweet_synopsis/mario_gummies/1.jpg&#34;
+  src=&#34;http://localhost:1313/images/sweet_synopsis/mario_gummies/1.jpg&#34;
   style=&#34;
     display: inline-block;
     vertical-align: top;
@@ -1519,9 +1540,9 @@ other pictures would suggest.</p>
     </item>
     <item>
       <title>The Mojang Theory</title>
-      <link>https://leespeak.me/gaming/mojang/</link>
+      <link>http://localhost:1313/gaming/mojang/</link>
       <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>https://leespeak.me/gaming/mojang/</guid>
+      <guid>http://localhost:1313/gaming/mojang/</guid>
       <description>&lt;p&gt;Like many of those who grew up on Minecraft, I&amp;rsquo;ve often struggled to understand its developer&amp;rsquo;s philosophy
 when it comes to game updates. Like, I get it, they don&amp;rsquo;t want to change the game too much and risk undermining
 the core identity of the game, but there&amp;rsquo;s so much that notion alone doesn&amp;rsquo;t account for.&lt;/p&gt;
@@ -1572,11 +1593,11 @@ player shuffle over to fabric and forge and figure it out themselves. It&rsquo;s
     </item>
     <item>
       <title>Some Scattered Thoughts on My Favorite Piece of Art</title>
-      <link>https://leespeak.me/music/idmthy_review/</link>
+      <link>http://localhost:1313/music/idmthy_review/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
-      <guid>https://leespeak.me/music/idmthy_review/</guid>
+      <guid>http://localhost:1313/music/idmthy_review/</guid>
       <description>&lt;img
-  src=&#34;https://leespeak.me/images/music/idmthy_cover.jpg&#34;
+  src=&#34;http://localhost:1313/images/music/idmthy_cover.jpg&#34;
   style=&#34;
     display: inline-block;
     vertical-align: top;
