@@ -12,7 +12,6 @@ I'd like to clear up some things before continuing:
 
 1. Scores are out of 5 bangins
 
-
 2. Please recommend more candy in the commments!
 
 3. I haven't had a lot of chocolate!
@@ -82,17 +81,17 @@ It gets egregious when an entire flavor is missing, even if it's just one of six
 **Positives:**
 
 <li style="margin-left: 1rem">
-  +2: Strong assortment of six flavors.
+  Strong assortment of six flavors.
 </li>
 
 **Negatives:**
 
 <li style="margin-left: 1rem">
-  -2: The grease.
+  The grease.
 </li>
 
 <li style="margin-left: 1rem">
-  -½: Poor manufacturing.
+  Poor manufacturing.
 </li>
 
 <h2> Recommendation: ☹👎︎</h2>
