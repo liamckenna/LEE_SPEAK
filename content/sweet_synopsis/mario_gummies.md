@@ -106,33 +106,33 @@ Like all Sweet Synopsis reviews, we start with a base of 2½ bangins.
 **Positives:**
 
 <li style="margin-left: 1rem">
-  +1: Neat rare shapes.
+    Neat rare shapes.
 </li>
 
 <li style="margin-left: 1rem">
-  +½: Cute packaging renders.
+    Cute packaging renders.
 </li>
 
 <li style="margin-left: 1rem">
-  +½: Low amount of high quality sugar.
+    Low amount of high quality sugar.
 </li>
 
 <li style="margin-left: 1rem">
-  +½: Good, standard cola flavoring.
+    Good, standard cola flavoring.
 </li>
 
 **Negatives:**
 
 <li style="margin-left: 1rem">
-  -2½: The age/crust.
+    The age/crust.
 </li>
 
 <li style="margin-left: 1rem">
-  -1½: The price.
+    The price.
 </li>
 
 <li style="margin-left: 1rem">
-  -½: Melon flavoring is just not my favorite.
+    Melon flavoring is just not my favorite.
 </li>
 
 <h2> Recommendation: ☹👎︎</h2>
