@@ -17,7 +17,7 @@ I have found a familiar feeling.
 2020 <br>
 1 A.M. <br>
 Walking along a hiking trail <br>
-In an foreign state <br>
+In a foreign state <br>
 Surrounded by strangers <br>
 It’s not a bad feeling.
 
