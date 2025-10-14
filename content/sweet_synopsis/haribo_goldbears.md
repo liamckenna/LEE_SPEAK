@@ -2,10 +2,10 @@
 author: Liam McKenna
 title: Haribo Goldbears
 date: 2025-09-15
-description: Episode IV - Classic Week I
+description: Episode IV - Classics I
 comments_disabled: false
 category_pin: false
-draft: true
+draft: false
 ---
 
 Let's be honest – this was never a matter of *if*, but a matter of *when*. 
