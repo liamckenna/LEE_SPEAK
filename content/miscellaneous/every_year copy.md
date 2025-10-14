@@ -17,7 +17,7 @@ slowly, inconspicuously, yet unmistakibly making headway <br>
 directing us, fulfilling the natural order <br>
 the will of the universe <br>
 one musn't attempt to decipher a destination <br>
-you'll nevewr be faster than the waves of light that color our existence <br>
+you'll never be faster than the waves of light that color our existence <br>
 but peace can be found <br>
 in acceptance <br>
 in appreciation <br>
