@@ -16,7 +16,7 @@ It was a fun weekend. I probably needed it more than I let on, though my Uncle s
 
 > Life-long happiness isn't attainable. I've found happiness in fleeting moments, but in my day to day, I'm not happy. I'm content with my life, but I'm not happy, and I don't expect to be.
 
-I think in the moment, I didn't want to believe him. Even still, there's a part of me that just refuses to let such a hope die. But if I had to guess, he's probably right. In that case, I hope to find content with my life. I don't want to keep moving the goalpost down the field, expecting the next milestone in my life to finally be the one to do it. I want to learn to be content with my life right now, in my last moments, and at every point in-between.
+I think in the moment, I didn't want to believe him. Even still, there's a part of me that just refuses to let such a hope die. But if I had to guess, he's probably right. In that case, I hope to one day be content with my life. I don't want to keep moving the goalpost down the field, expecting the next milestone in my life to finally be the one to do it. I want to learn to be content with my life right now, in my last moments, and at every point in-between.
 
 Moving forward a year to July of 2024, I was in a radically different position in life. Now knowing concretely the next two years of my life to be spent in graduate school, all the while surrounded by the close friends I'd made, my gaze was towards the sky. This time the whole extended family was here, and with nothing weighing me down, I could appreciate that time with my family to the fullest.
 
