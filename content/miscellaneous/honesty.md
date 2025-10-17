@@ -2,7 +2,7 @@
 author: Liam McKenna
 title: Honesty
 date: 2025-10-17
-description: And what that entials
+description: And what that entials.
 comments_disabled: false
 home_pin: false
 ---
