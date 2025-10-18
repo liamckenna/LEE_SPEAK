@@ -4,7 +4,7 @@ title: The Crowd
 date: 2023-10-13
 description:
 comments_disabled: false
-home_pin: false
+home_pin: true
 ---
 if you had the world's attention, what would you say? <br>
 would your words ring loud throughout the crowd <br>
