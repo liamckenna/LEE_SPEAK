@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="/images/favicon.png" />
 
-<title>Music&nbsp;|&nbsp;LEE_SPEAK</title>
+<title>Notes and Lessons from Vanisher, Horizon Scraper&nbsp;|&nbsp;LEE_SPEAK</title>
 <meta
   name="title"
-  content="Music"
+  content="Notes and Lessons from Vanisher, Horizon Scraper"
 />
 <meta
   name="description"
-  content="Album reviews, loose thoughts on the creative process, what have you"
+  content="placeholder"
 />
 <meta
   name="keywords"
@@ -24,29 +24,32 @@
 
 
 
-<meta property="og:url" content="http://localhost:1313/music/">
+<meta property="og:url" content="http://localhost:1313/music/notes_from_vanisher/">
   <meta property="og:site_name" content="LEE_SPEAK">
-  <meta property="og:title" content="Music">
-  <meta property="og:description" content="Album reviews, loose thoughts on the creative process, what have you">
+  <meta property="og:title" content="Notes and Lessons from Vanisher, Horizon Scraper">
+  <meta property="og:description" content="placeholder">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="music">
+    <meta property="article:published_time" content="2025-10-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-10-25T00:00:00+00:00">
 
 
 
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Music">
-  <meta name="twitter:description" content="Album reviews, loose thoughts on the creative process, what have you">
+  <meta name="twitter:title" content="Notes and Lessons from Vanisher, Horizon Scraper">
+  <meta name="twitter:description" content="placeholder">
 
 
 
 
 
-  <meta itemprop="name" content="Music">
-  <meta itemprop="description" content="Album reviews, loose thoughts on the creative process, what have you">
-  <meta itemprop="datePublished" content="2025-11-21T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-11-21T00:00:00+00:00">
+  <meta itemprop="name" content="Notes and Lessons from Vanisher, Horizon Scraper">
+  <meta itemprop="description" content="placeholder">
+  <meta itemprop="datePublished" content="2025-10-25T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-10-25T00:00:00+00:00">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
     
@@ -56,14 +59,13 @@
 
     
 
-    <link rel="alternate" type="application/rss+xml" href="/music/index.xml" title="LEE_SPEAK" />
     
 
 
     <meta property="og:title" content="LEE_SPEAK" />
 <meta property="og:description" content="A blog about gaming, art, candy, and internet culture." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/music/" />
+<meta property="og:url" content="http://localhost:1313/music/notes_from_vanisher/" />
 <meta property="og:image" content="http://localhost:1313/images/64.png" />
 
 <meta name="twitter:card" content="summary_large_image" />
@@ -88,7 +90,7 @@
 
   <a
     href="/music/"
-    class="current"
+    
     >Music</a
   >
 
@@ -113,63 +115,105 @@
 
 
 
-  <h1 class="home-title">
-    <img 
-      src="/right-icon.png" 
-      alt="Icon" 
-      class="title-icon"
-    >
+
+  <h1 class="page-title">
     
-    Music
-    <img 
-      src="/right-icon.png" 
-      alt="Icon" 
-      class="title-icon"
-    >
+    Notes and Lessons from Vanisher, Horizon Scraper
   </h1>
   
-    <p>Album reviews, loose thoughts on the creative process, what have you</p>
+    <p>placeholder</p>
   
-
-
 
 
     </header>
     <main>
       
+  
+  <nav style="margin-bottom: 4rem;">
+    
+      
+    
+    
+    
+  </nav>
+  
+
+  
+
+  
+  
+
   <content>
     
-    
-    <ul class="blog-posts">
-      
-        <li>
-          <span>
-            <i>
-              <time datetime="2025-02-13" pubdate>
-                
-
-
-
-
-Feb 13th, 2025
-
-              </time>
-            </i>
-          </span>
-          
-            <a href="/music/idmthy_review/">Some Scattered Thoughts on My Favorite Piece of Art</a>
-          
-        </li>
-      
-    </ul>
-    
-      <small>
-        <div>
-          
-        </div>
-      </small>
-    
   </content>
+
+  
+  <nav style="margin-bottom: 4rem;">
+    
+      
+    
+    
+    
+  </nav>
+
+  
+  
+
+  
+
+
+
+
+  
+
+  <section class="comments">
+  <h3>Leave a comment</h3>
+  <form method="POST" action="https://leespeak-api.vercel.app/api/submit">
+    
+    <input
+      type="hidden"
+      name="slug"
+      value="notes_from_vanisher"
+    >
+    
+    <input
+      type="hidden"
+      name="path"
+      value="music"
+    >
+
+    <p>
+      <label>Name:<br>
+        <input type="text" name="name" required>
+      </label>
+    </p>
+    <p>
+      <label>Comment:<br>
+        <textarea name="comment" rows="5" required></textarea>
+      </label>
+    </p>
+
+    <p><button type="submit">Post</button></p>
+    <p style="font-style:italic">note: may take a minute to appear</p>
+  </form>
+</section>
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.comment-date').forEach(function(el) {
+    var iso = el.getAttribute('datetime');
+    var dt  = new Date(iso);
+    var date = dt.toLocaleDateString();
+    var time = dt.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+    el.textContent = date + ' @ ' + time;
+  });
+});
+</script>
+
+
+
 
     </main>
     <footer>
