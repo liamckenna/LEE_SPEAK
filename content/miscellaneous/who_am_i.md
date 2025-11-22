@@ -7,7 +7,7 @@ comments_disabled: false
 home_pin: false
 ---
 
-I get trapped in my own head a lot. Clearly. The thought that people around me dont have agency is comforting. It gives me reprieve that the only enemy I have to worry about is myself. The thought of perception beyond what I see is disturbing to say the least and I try to avoid it at all costs. When I leave the room, I want to leave the collective consciousness of those within it. Simple as.
+I get trapped in my own head a lot. Clearly. The thought that people around me don't have agency is comforting. It gives me reprieve that the only enemy I have to worry about is myself. The thought of perception beyond what I see is disturbing to say the least and I try to avoid it at all costs. When I leave the room, I want to leave the collective consciousness of those within it. Simple as.
 
 It’s not the case and will never be. Reckoning with that is terrifying and painful. It can only be avoided for so long, though. At some point, you must look up and meet the gaze of the world around you, if only for a moment. You need to hear from someone that isn't you, about you.
 
