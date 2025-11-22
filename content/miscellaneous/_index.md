@@ -1,6 +1,6 @@
 +++
 title = "Miscellaneous"
-description = "Assorted topics of varying substance"
+description = ""
 index_title = true
 long_title = true
 +++
