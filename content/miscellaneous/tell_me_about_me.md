@@ -1,6 +1,6 @@
 ---
 author: Liam McKenna
-title: Who am I, According to You?
+title: Tell Me About Me
 date: 2025-11-22
 description: 
 comments_disabled: false
