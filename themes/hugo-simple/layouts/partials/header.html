@@ -7,18 +7,8 @@
 
 {{ if .Params.home_page}}
   <h1 class="home-title">
-    <img 
-      src="{{ "right-icon.png" | relURL }}" 
-      alt="Icon" 
-      class="title-icon"
-    >
-    {{ with .Params.title_line1 }}{{ . }}<br />{{ end }}
-    {{ with .Params.title_line2 }}{{ . }}{{ else }}{{ .Title }}{{ end }}
-    <img 
-      src="{{ "right-icon.png" | relURL }}" 
-      alt="Icon" 
-      class="title-icon"
-    >
+    {{- with .Params.title_line1 -}}{{ . }}<br />{{- end -}}
+    {{- with .Params.title_line2 -}}{{ . }}{{- else -}}{{ .Title }}{{- end -}}
   </h1>
   {{ with .Description }}
     <p>{{ . }}</p>
@@ -29,15 +19,15 @@
 
   <h1 class="home-title">
     <img 
-      src="{{ "right-icon.png" | relURL }}" 
-      alt="Icon" 
+      src="{{ " right-icon.png" | relURL }}" 
+      alt="" 
       class="title-icon-small"
     >
-    {{ with .Params.title_line1 }}{{ . }}<br />{{ end }}
-    {{ with .Params.title_line2 }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+    {{- with .Params.title_line1 -}}{{ . }}<br />{{- end -}}
+    {{- with .Params.title_line2 -}}{{ . }}{{- else -}}{{ .Title }}{{- end -}}
     <img 
-      src="{{ "right-icon.png" | relURL }}" 
-      alt="Icon" 
+      src="{{ " right-icon.png" | relURL }}" 
+      alt="" 
       class="title-icon-small"
     >
   </h1>
@@ -48,15 +38,15 @@
   {{ else if .Params.index_title}}
   <h1 class="home-title">
     <img 
-      src="{{ "right-icon.png" | relURL }}" 
-      alt="Icon" 
+      src="{{ " right-icon.png" | relURL }}" 
+      alt="" 
       class="title-icon"
     >
-    {{ with .Params.title_line1 }}{{ . }}<br />{{ end }}
-    {{ with .Params.title_line2 }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+    {{- with .Params.title_line1 -}}{{ . }}<br />{{- end -}}
+    {{- with .Params.title_line2 -}}{{ . }}{{- else -}}{{ .Title }}{{- end -}}
     <img 
-      src="{{ "right-icon.png" | relURL }}" 
-      alt="Icon" 
+      src="{{ " right-icon.png" | relURL }}" 
+      alt="" 
       class="title-icon"
     >
   </h1>
@@ -68,8 +58,8 @@
 {{ else }}
 
   <h1 class="page-title">
-    {{ with .Params.title_line1 }}{{ . }}<br />{{ end }}
-    {{ with .Params.title_line2 }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+    {{- with .Params.title_line1 -}}{{ . }}<br />{{- end -}}
+    {{- with .Params.title_line2 -}}{{ . }}{{- else -}}{{ .Title }}{{- end -}}
   </h1>
   {{ with .Description }}
     <p>{{ . }}</p>

@@ -6,24 +6,29 @@
     "Helvetica Neue", sans-serif;
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   --standard-border-radius: 5px;
-
+  --serif-font: "Times New Roman", Charter, serif, Georgia, Cambria, serif;
   /* Default (light) theme */
   --bg: #fff;
   --accent-bg: #f5f7ff;
-  --text: #212121;
+  --text: #000000;
   --text-light: #585858;
   --border: #898EA4;
-  --accent: #0d47a1;
-  --accent-hover: #1266e2;
+  --accent: #5a9be1;
+  --accent-hover: #588fe2;
   --accent-text: var(--bg);
   --code: #d81b60;
   --preformatted: #444;
   --marked: #ffdd33;
   --disabled: #efefef;
+  --selection-bg: rgb(188, 217, 248);
+}
+
+.center {
+  text-align: center;
 }
 
 /* Dark theme */
-
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
@@ -37,16 +42,23 @@
     --preformatted: #ccc;
     --disabled: #111;
   }
+
   img,
   video {
     opacity: 1.0;
   }
 }
-
+*/
 
 /* Reset box-sizing */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--selection-bg);
 }
 
 /* Reset default appearance */
@@ -61,7 +73,7 @@ progress {
 
 html {
   /* Set the font globally */
-  font-family: var(--sans-font);
+  font-family: var(--serif-font);
   scroll-behavior: smooth;
 }
 
@@ -75,12 +87,13 @@ body {
   grid-template-columns: 1fr min(45rem, 90%) 1fr;
   margin: 0;
 }
-body > * {
+
+body>* {
   grid-column: 2;
 }
 
 /* Make the header bg full width, but the content inline with body */
-body > header {
+body>header {
   background-color: var(--accent-bg);
   border-bottom: 1px solid var(--border);
   text-align: center;
@@ -88,16 +101,16 @@ body > header {
   grid-column: 1 / -1;
 }
 
-body > header > *:only-child {
+body>header>*:only-child {
   margin-block-start: 2rem;
 }
 
-body > header h1 {
+body>header h1 {
   max-width: 1200px;
   margin: 1rem auto;
 }
 
-body > header p {
+body>header p {
   max-width: 40rem;
   margin: 1rem auto;
 }
@@ -107,7 +120,7 @@ main {
   padding-top: 1.5rem;
 }
 
-body > footer {
+body>footer {
   margin-top: 4rem;
   padding: 2rem 1rem 1.5rem 1rem;
   color: var(--text-light);
@@ -148,7 +161,13 @@ p {
 }
 
 /* Prevent long strings from overflowing container */
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
@@ -190,7 +209,8 @@ a:hover {
 
 button,
 .button,
-a.button, /* extra specificity to override a */
+a.button,
+/* extra specificity to override a */
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
@@ -202,7 +222,7 @@ input[type="button"] {
   line-height: normal;
 }
 
-.button[aria-disabled="true"], 
+.button[aria-disabled="true"],
 input:disabled,
 textarea:disabled,
 select:disabled,
@@ -236,25 +256,23 @@ input[type="button"]:enabled:hover {
 
 .button:focus-visible,
 button:focus-visible:where(:enabled),
-input:enabled:focus-visible:where(
-  [type="submit"],
+input:enabled:focus-visible:where([type="submit"],
   [type="reset"],
-  [type="button"]
-) {
+  [type="button"]) {
   outline: 2px solid var(--accent);
   outline-offset: 1px;
 }
 
 /* Format navigation */
-header > nav {
+header>nav {
   font-size: 1rem;
   line-height: 2;
   padding: 1rem 0 0 0;
 }
 
 /* Use flexbox to allow items to wrap, as needed */
-header > nav ul,
-header > nav ol {
+header>nav ul,
+header>nav ol {
   align-content: space-around;
   align-items: center;
   display: flex;
@@ -267,13 +285,13 @@ header > nav ol {
 }
 
 /* List items are inline elements, make them behave more like blocks */
-header > nav ul li,
-header > nav ol li {
+header>nav ul li,
+header>nav ol li {
   display: inline-block;
 }
 
-header > nav a,
-header > nav a:visited {
+header>nav a,
+header>nav a:visited {
   margin: 0 0.5rem 1rem 0.5rem;
   border: 1px solid var(--border);
   border-radius: var(--standard-border-radius);
@@ -283,10 +301,10 @@ header > nav a:visited {
   text-decoration: none;
 }
 
-header > nav a:hover,
-header > nav a.current,
-header > nav a[aria-current="page"],
-header > nav a[aria-current="true"] {
+header>nav a:hover,
+header>nav a.current,
+header>nav a[aria-current="page"],
+header>nav a[aria-current="true"] {
   border-color: var(--accent);
   color: var(--accent);
   cursor: pointer;
@@ -294,7 +312,7 @@ header > nav a[aria-current="true"] {
 
 /* Reduce nav side on mobile */
 @media only screen and (max-width: 750px) {
-  header > nav a {
+  header>nav a {
     border: none;
     padding: 0;
     text-decoration: underline;
@@ -303,7 +321,10 @@ header > nav a[aria-current="true"] {
 }
 
 /* Consolidate box styling */
-aside, details, pre, progress {
+aside,
+details,
+pre,
+progress {
   background-color: var(--accent-bg);
   border: 1px solid var(--border);
   border-radius: var(--standard-border-radius);
@@ -317,6 +338,7 @@ aside {
   margin-inline-start: 15px;
   float: right;
 }
+
 *[dir="rtl"] aside {
   float: left;
 }
@@ -330,7 +352,9 @@ aside {
   }
 }
 
-article, fieldset, dialog {
+article,
+fieldset,
+dialog {
   border: 1px solid var(--border);
   padding: 1rem;
   border-radius: var(--standard-border-radius);
@@ -352,13 +376,13 @@ section {
 }
 
 /* Don't double separators when chaining sections */
-section + section,
+section+section,
 section:first-child {
   border-top: 0;
   padding-top: 0;
 }
 
-section + section {
+section+section {
   margin-top: 0;
 }
 
@@ -379,15 +403,15 @@ summary {
   word-break: break-all;
 }
 
-details[open] > summary + * {
+details[open]>summary+* {
   margin-top: 0;
 }
 
-details[open] > summary {
+details[open]>summary {
   margin-bottom: 0.5rem;
 }
 
-details[open] > :last-child {
+details[open]> :last-child {
   margin-bottom: 0;
 }
 
@@ -397,7 +421,7 @@ table {
   margin: 1.5rem 0;
 }
 
-figure > table {
+figure>table {
   width: max-content;
   margin: 0;
 }
@@ -439,6 +463,7 @@ button,
   max-width: 100%;
   display: inline-block;
 }
+
 textarea,
 select,
 input {
@@ -446,9 +471,11 @@ input {
   background-color: var(--bg);
   border: 1px solid var(--border);
 }
+
 label {
   display: block;
 }
+
 textarea:not([cols]) {
   width: 100%;
 }
@@ -462,6 +489,7 @@ select:not([multiple]) {
   background-repeat: no-repeat;
   padding-inline-end: 25px;
 }
+
 *[dir="rtl"] select:not([multiple]) {
   background-position: 10px, 15px;
 }
@@ -474,8 +502,8 @@ input[type="radio"] {
   width: min-content;
 }
 
-input[type="checkbox"] + label,
-input[type="radio"] + label {
+input[type="checkbox"]+label,
+input[type="radio"]+label {
   display: inline-block;
 }
 
@@ -503,6 +531,7 @@ input[type="checkbox"]:checked::after {
   font-size: 1.8em;
   transform: rotate(45deg);
 }
+
 input[type="radio"]:checked::after {
   /* creates a colored circle for the checked radio button  */
   content: " ";
@@ -518,6 +547,7 @@ input[type="radio"]:checked::after {
 
 /* Makes input fields wider on smaller screens */
 @media only screen and (max-width: 750px) {
+
   textarea,
   select,
   input {
@@ -528,7 +558,7 @@ input[type="radio"]:checked::after {
 /* Set a height for color input */
 input[type="color"] {
   height: 2.5rem;
-  padding:  0.2rem;
+  padding: 0.2rem;
 }
 
 /* do not show border around file selector button */
@@ -568,8 +598,8 @@ figure {
   overflow-x: auto;
 }
 
-figure > img,
-figure > picture > img {
+figure>img,
+figure>picture>img {
   display: block;
   margin-inline: auto;
 }
@@ -598,7 +628,7 @@ cite {
 }
 
 dt {
-    color: var(--text-light);
+  color: var(--text-light);
 }
 
 /* Use mono font for code elements */
@@ -685,7 +715,8 @@ dialog::backdrop {
 
 /* Superscript & Subscript */
 /* Prevent scripts from affecting line-height. */
-sup, sub {
+sup,
+sub {
   vertical-align: baseline;
   position: relative;
 }
@@ -694,8 +725,8 @@ sup {
   top: -0.4em;
 }
 
-sub { 
-  top: 0.3em; 
+sub {
+  top: 0.3em;
 }
 
 /* Classes for notices */
@@ -712,42 +743,58 @@ sub {
   @page {
     margin: 1cm;
   }
+
   body {
     display: block;
   }
-  body > header {
+
+  body>header {
     background-color: unset;
   }
-  body > header nav,
-  body > footer {
+
+  body>header nav,
+  body>footer {
     display: none;
   }
+
   article {
     border: none;
     padding: 0;
   }
+
   a[href^="http"]::after {
     content: " <" attr(href) ">";
   }
+
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
+
   a {
     text-decoration: none;
   }
+
   p {
     widows: 3;
     orphans: 3;
   }
+
   hr {
     border-top: 1px solid var(--border);
   }
+
   mark {
     border: 1px solid var(--border);
   }
-  pre, table, figure, img, svg {
+
+  pre,
+  table,
+  figure,
+  img,
+  svg {
     break-inside: avoid;
   }
+
   pre code {
     white-space: pre-wrap;
   }

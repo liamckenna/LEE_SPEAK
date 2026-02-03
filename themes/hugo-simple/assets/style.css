@@ -112,7 +112,7 @@ a:hover {
 }
 
 .title-icon {
-
+  display: block;
   max-width: 100px;
   max-height: 100px;
 }
@@ -120,13 +120,13 @@ a:hover {
 @media only screen and (max-width: 750px) {
 
   .title-icon {
-
+    display: block;
       max-width: 50px;
       max-height: 50px;
   }
 
   .title-icon-small {
-
+    display: block;
     max-width: 30px;
     max-height: 30px;
 }
