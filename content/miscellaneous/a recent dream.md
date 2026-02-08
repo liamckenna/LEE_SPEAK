@@ -5,6 +5,7 @@ date: 2026-02-03
 description:
 comments_disabled: false
 home_pin: false
+draft: true
 ---
 I had a dream that I lived in Japan. It's hard to remember, but I think I was really scared. There were a ton of people around me, which helped, but I remember being scared of them too. I had no reason to be; they were only ever kind towards me. They were impeccibly reiable, available, open, even when I (couldn't, wouldn't, refused to) reciprocate. At times I would confide in them and immediately regret it out of habit. I had no reason to; they were only ever accepting of me. Maybe I had some silly notion that it was all temporary.
 
