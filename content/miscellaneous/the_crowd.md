@@ -17,7 +17,7 @@ seek approval en absolute, make your vanity resolute <br>
 perhaps there's no need, your ego not depend <br>
 are you scared of the prejudice? the preconceived conclusions? <br>
 or is it the incredulous? the pompous disillusioned? <br>
-whatever it may be, understand its unabating <br>
+whatever it may be, understand it's unabating <br>
 detractors detract, so long as there's debating <br>
 so worry not what you can't change, or have no in to say <br>
 the subject that takes precedence is the message you relay <br>
