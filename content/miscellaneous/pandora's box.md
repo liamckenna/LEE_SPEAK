@@ -7,6 +7,7 @@ comments_disabled: false
 home_pin: false
 draft: false
 ---
+
 There is no going back. The world will probably end. If it doesn’t, it will look nothing like anything we know now. There is nothing any of us can do. 
 
 There is no hope. Only fear and fixation. I cannot look away. It only hurts to watch but what else can I do? Choose to remain in ignorance, lay down, and truly accept the fate of the world? Even if that’s the right answer, how could I bring myself to do so?
