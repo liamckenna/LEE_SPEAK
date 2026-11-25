@@ -1,5 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>LEE_SPEAK</title><link>https://leespeak.me/gaming/</link><description>Recent content on LEE_SPEAK</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>lee@liamdouglas.com (Liam McKenna)</managingEditor><webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster><copyright>© 2025 Liam McKenna</copyright><lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://leespeak.me/gaming/index.xml" rel="self" type="application/rss+xml"/><item><title>Will Copper Disrupt the Progression of Minecraft?</title><link>https://leespeak.me/gaming/copper_tools/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author><guid>https://leespeak.me/gaming/copper_tools/</guid><description>Today I opened my YouTube to find a new minecraft update announcement at the top of my recommended. Ironically, I had another topic I planned on writing about today that was also Minecraft-related, but that will have to wait.
-In their latest update video, Mojang has given copper a handful of new use cases. For the purposes of this discussion, the one standout announcement is that of copper tools and armor.</description><content:encoded><![CDATA[
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LEE_SPEAK</title>
+    <link>http://localhost:1313/gaming/</link>
+    <description>Recent content on LEE_SPEAK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>lee@liamdouglas.com (Liam McKenna)</managingEditor>
+    <webMaster>lee@liamdouglas.com (Liam McKenna)</webMaster>
+    <copyright>© 2025 Liam McKenna</copyright>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Will Copper Disrupt the Progression of Minecraft?</title>
+      <link>http://localhost:1313/gaming/copper_tools/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
+      <guid>http://localhost:1313/gaming/copper_tools/</guid>
+      <description>&lt;img
+  src=&#34;http://localhost:1313/images/gaming/copper_tools.jpeg&#34;
+  style=&#34;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    
+      transform: scale(1);
+      transform-origin: top left;
+    
+  &#34;
+/&gt;
+
+&lt;p&gt;Today I opened my YouTube to find a new minecraft update announcement at the top of my recommended.
+Ironically, I had another topic I planned on writing about today that was also Minecraft-related, but that will have to wait.&lt;/p&gt;
+&lt;p&gt;In their &lt;a href=&#34;https://www.youtube.com/watch?v=542rY0DQHIM&#34;&gt;latest update video&lt;/a&gt;, Mojang has given copper a handful of new use cases.
+For the purposes of this discussion, the one standout announcement is that of &lt;strong&gt;copper tools and armor&lt;/strong&gt;.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[
 
 
 <img
@@ -107,8 +145,21 @@ to one of more general purpose, à la iron or gold. A similar thing happened wit
 <p>Lapis didn&rsquo;t get armor or tools, but it did see the entire enchantment system reworked alongside it. That panned out well, so this very well may too.
 I&rsquo;m just struggling to find the merit in this specific use case for copper. It feels like Mojang is casually toying with one of Minecraft&rsquo;s most tried strengths in an attempt to justify a past
 miscalculation.</p>
-]]></content:encoded></item><item><title>The Mojang Theory</title><link>https://leespeak.me/gaming/mojang/</link><pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author><guid>https://leespeak.me/gaming/mojang/</guid><description>Like many of those who grew up on Minecraft, I&amp;rsquo;ve often struggled to understand its developer&amp;rsquo;s philosophy when it comes to game updates. Like, I get it, they don&amp;rsquo;t want to change the game too much and risk undermining the core identity of the game, but there&amp;rsquo;s so much that notion alone doesn&amp;rsquo;t account for.
-It&amp;rsquo;s bullshit to begin with &amp;ndash; I mean in practice, Mojang has done plenty to rip away the core of Minecraft as an experience.</description><content:encoded><![CDATA[<p>Like many of those who grew up on Minecraft, I&rsquo;ve often struggled to understand its developer&rsquo;s philosophy
+]]></content:encoded>
+    </item>
+    <item>
+      <title>The Mojang Theory</title>
+      <link>http://localhost:1313/gaming/mojang/</link>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><author>lee@liamdouglas.com (Liam McKenna)</author>
+      <guid>http://localhost:1313/gaming/mojang/</guid>
+      <description>&lt;p&gt;Like many of those who grew up on Minecraft, I&amp;rsquo;ve often struggled to understand its developer&amp;rsquo;s philosophy
+when it comes to game updates. Like, I get it, they don&amp;rsquo;t want to change the game too much and risk undermining
+the core identity of the game, but there&amp;rsquo;s so much that notion alone doesn&amp;rsquo;t account for.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s bullshit to begin with &amp;ndash; I mean in practice, Mojang has done plenty to rip away the core of Minecraft as
+an experience. The game was built on dynamic systems and, in the beginning, had its identity entrenched in
+multifaceted mechanics and items. At some point we started getting a slew of updates with one-off ideas that
+failed to contribute to the greater dynamic gameplay of the game&amp;rsquo;s foundation.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Like many of those who grew up on Minecraft, I&rsquo;ve often struggled to understand its developer&rsquo;s philosophy
 when it comes to game updates. Like, I get it, they don&rsquo;t want to change the game too much and risk undermining
 the core identity of the game, but there&rsquo;s so much that notion alone doesn&rsquo;t account for.</p>
 <p>It&rsquo;s bullshit to begin with &ndash; I mean in practice, Mojang has done plenty to rip away the core of Minecraft as
@@ -147,4 +198,7 @@ their game.</p>
 <p>So here goes the theory: <strong>Mojang does not care to do any work that has not already been done for them.</strong> If a mod has
 done so, then their hands are clean. They don&rsquo;t even need to implement it themselves! Just quietly let each unsatisfied
 player shuffle over to fabric and forge and figure it out themselves. It&rsquo;s genius, really.</p>
-]]></content:encoded></item></channel></rss>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
