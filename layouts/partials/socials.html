@@ -1,0 +1,19 @@
+{{ with site.Data.socials }}
+<div class="socials">
+  {{ range . }}
+    {{ if .icon }}
+      {{ if fileExists (printf "static/%s" .icon) }}
+        <a href="{{ .url }}" title="{{ .name }}" aria-label="{{ .name }}" target="_blank" rel="noopener">
+          <span class="ico" style="{{ printf "--src: url('%s')" (.icon | relURL) | safeCSS }}">
+            <img src="{{ .icon | relURL }}" alt="{{ .name }}">
+          </span>
+        </a>
+      {{ end }}
+    {{ else if .fa }}
+      <a href="{{ .url }}" title="{{ .name }}" aria-label="{{ .name }}" target="_blank" rel="noopener"{{ with .color }} style="{{ printf "--brand: %s" . | safeCSS }}"{{ end }}>
+        <i class="{{ .fa }}"></i>
+      </a>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,22 @@
+<ul class="post-list" style="list-style:none; padding:0; margin:0">
+  {{ $showPins := .pins }}
+  {{ range .pages }}
+  <li style="margin-bottom:1rem">
+    <small style="display:flex; justify-content:space-between; width:100%; margin-bottom:0.25rem; font-size:0.8em;">
+      <span class="post-tags" style="font-weight:bold">
+        {{ range .GetTerms "tags" }}
+          <a href="{{ .RelPermalink }}">#{{ .Data.Term }}</a>
+        {{ end }}
+      </span>
+      <span>{{ partial "prettydate.html" . }}</span>
+    </small>
+    <a href="{{ .RelPermalink }}" style="display:inline-flex; align-items:center">
+      {{ if and $showPins .Params.home_pin }}
+        <span class="pin-icon pin-desktop">🖈</span>
+        <span class="pin-icon pin-mobile">📌</span>
+      {{ end }}
+      {{ .Title }}
+    </a>
+  </li>
+  {{ end }}
+</ul>

@@ -3,7 +3,7 @@ baseURL = "https://leespeak.me/"
 theme = "hugo-simple"
 languageCode = "en"                # zh-Hans
 title = "LEE_SPEAK"
-copyright = "© 2025 Liam McKenna"
+copyright = "© 2026 Liam McKenna"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
@@ -18,7 +18,7 @@ tag = "tags"
 
 [permalinks]
 posts = "/:slug/"
-tags = "/blog/:slug"
+tags = "/tags/:slug/"
 
 [markup.goldmark.renderer]
 unsafe = true
@@ -46,23 +46,6 @@ email = "lee@liamdouglas.com"
 name = "Home"
 pageRef = "/"
 weight = 10
-[[menu.main]]
-name = "Gaming"
-pageRef = "/gaming"
-weight = 20
-[[menu.main]]
-name = "Music"
-pageRef = "/music"
-weight = 30
-[[menu.main]]
-name = "Miscellaneous"
-pageRef = "/miscellaneous"
-weight = 40
-[[menu.main]]
-name = "Sweet Synopsis"
-pageRef = "/sweet_synopsis"
-weight = 50
-
 
 
 [services.rss]

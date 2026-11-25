@@ -1,0 +1,6 @@
+{{ define "main" }}
+  {{ .Content }}
+  <section class="recent-posts" style="padding-left:0">
+    {{ partial "post-list.html" (dict "pages" .Pages.ByDate.Reverse "pins" false) }}
+  </section>
+{{ end }}

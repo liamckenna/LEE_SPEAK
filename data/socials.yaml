@@ -1,0 +1,25 @@
+- name: RateYourMusic
+  url: https://rateyourmusic.com/~leeyum
+  icon: images/socials/rateyourmusic.png
+
+- name: AniList
+  url: https://anilist.co/user/fishytanky/
+  icon: images/socials/anilist.png
+
+- name: Instagram
+  url: https://www.instagram.com/kikcflip/
+  icon: images/socials/instagram.png
+
+- name: Portfolio
+  url: https://liamdouglas.com/
+  fa: fa-solid fa-arrow-pointer
+
+- name: GitHub
+  url: https://github.com/liamckenna
+  fa: fab fa-github
+  color: "#181717"
+
+- name: LinkedIn
+  url: https://linkedin.com/in/liamckenna
+  fa: fab fa-linkedin
+  color: "#0A66C2"

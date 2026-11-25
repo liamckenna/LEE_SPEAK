@@ -1,4 +1,6 @@
+{{ if not .IsHome }}
 <nav>{{- partial "nav.html" . -}}</nav>
+{{ end }}
 
 <meta name="description" content="A blog by Liam McKenna about gaming, music, candy, and internet culture.">
 <meta name="keywords" content="Liam McKenna, lee speak, LEE_SPEAK, gaming blog, personal website">
@@ -13,6 +15,7 @@
   {{ with .Description }}
     <p>{{ . }}</p>
   {{ end }}
+  {{ partial "socials.html" . }}
 
 
 {{ else if .Params.long_title}}

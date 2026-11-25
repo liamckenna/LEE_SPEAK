@@ -42,7 +42,7 @@
   </head>
 
   <body>
-    <header>
+    <header{{ if .IsHome }} class="home-header"{{ end }}>
       {{ partial "header.html" . }}
     </header>
     <main>

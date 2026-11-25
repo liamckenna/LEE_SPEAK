@@ -1,26 +1,16 @@
-<!-- layouts/partials/recent-posts.html -->
 <section class="recent-posts" style="padding-left:0">
-  <h2>Recent Posts</h2>
+  <h2>Posts</h2>
 
-  {{ $pinned := where .Site.RegularPages ".Params.home_pin" true }}
-  {{ $others := where .Site.RegularPages ".Params.home_pin" "ne" true }}
+  <small class="tag-row" style="display:block; margin-bottom:1.5rem">
+    {{ range .Site.Taxonomies.tags.ByCount }}
+      <a href="{{ .Page.RelPermalink }}">#{{ .Name }}</a>&nbsp;({{ .Count }})&nbsp;&nbsp;
+    {{ end }}
+  </small>
+
+  {{ $all := where .Site.RegularPages "Section" "posts" }}
+  {{ $pinned := where $all ".Params.home_pin" true }}
+  {{ $others := where $all ".Params.home_pin" "ne" true }}
   {{ $posts := union (sort $pinned "Date" "desc") (sort $others "Date" "desc") }}
 
-  <ul style="list-style:none; padding:0; margin:0">
-    {{ range first 5 $posts }}
-    <li style="margin-bottom:1rem">
-      <small style="display:flex; justify-content:space-between; width:100%; margin-bottom:0.25rem; font-size:0.8em;">
-        <span style="font-weight:bold">{{ .Section | humanize | title }}</span>
-        <span>{{ partial "prettydate.html" . }}</span>
-      </small>
-      <a href="{{ .RelPermalink }}" style="display:inline-flex; align-items:center">
-        {{ if .Params.home_pin }}
-          <span class="pin-icon pin-desktop">🖈</span>
-          <span class="pin-icon pin-mobile">📌</span>
-        {{ end }}
-        {{ .Title }}
-      </a>
-    </li>
-    {{ end }}
-  </ul>
+  {{ partial "post-list.html" (dict "pages" $posts "pins" true) }}
 </section>
